@@ -32,7 +32,7 @@ module.exports = (sequelize) => sequelize.define('Iphone', {
     allowNull: false,
   },
   id: {
-    type: DataTypes.UUID, // Cambiado a INTEGER
+    type: DataTypes.UUID,
     primaryKey: true,
     defaultValue: DataTypes.UUIDV4,
   },

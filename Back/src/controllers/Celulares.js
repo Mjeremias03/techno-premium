@@ -1,7 +1,7 @@
-const axios = require("axios");
+
 const { Iphone } = require("../database");
 const fs = require("fs");
-const { where } = require("sequelize");
+
 
 const getCelular = async (req, res) => {
   try {
