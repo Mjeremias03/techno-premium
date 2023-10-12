@@ -1,0 +1,305 @@
+[
+    {
+        "id": 1,
+        "marca": "Apple",
+        "modelo": "Iphone 7",
+        "precio": 100,
+        "sistema_operativo": "Apple",
+        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
+        "camara_principal": "12 MP",
+        "almacenamiento": "32GB",
+        "ram": "8 GB",
+        "imagenes": [
+            "https://http2.mlstatic.com/D_NQ_NP_736654-MLA49312671269_032022-O.webp",
+            "https://i.ebayimg.com/images/g/pH8AAOSwy5FkVWHL/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/6~gAAOSwRTlkVWHK/s-l1600.jpg",
+            "imagen4.jpg",
+            "imagen5.jpg"
+        ],
+        "stock":"1",
+        "bateria": "100%"
+    },
+    {
+        "id": 2,
+        "marca": "Apple",
+        "modelo": "iPhone 7",
+        "precio": 120,
+        "sistema_operativo": "iOS",
+        "pantalla": "6.1 pulgadas",
+        "camara_principal": "12 MP",
+        "almacenamiento": "256 GB",
+        "ram": "6 GB",
+        "imagenes": [
+            "https://http2.mlstatic.com/D_NQ_NP_961488-MLA49255685875_032022-O.webp",
+            "imagen2.jpg",
+            "imagen3.jpg",
+            "imagen4.jpg",
+            "imagen5.jpg"
+        ],
+        "bateria": "100%"
+    },
+    {
+        "id": 3,
+        "marca": "Apple",
+        "modelo": "Iphone 7Plus",
+        "precio": 200,
+        "sistema_operativo": "Apple",
+        "pantalla": "6.4 pulgadas",
+        "camara_principal": "50 MP",
+        "almacenamiento": "128 GB",
+        "ram": "8 GB",
+        "stock":"1",
+        "imagenes": [
+            "https://http2.mlstatic.com/D_NQ_NP_766355-MLA71635243788_092023-O.webp",
+            "https://i.ebayimg.com/images/g/mR0AAOSwiqplJXV6/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/FU8AAOSwl51lJXV6/s-l1600.jpg",
+            "imagen4.jpg",
+            "imagen5.jpg"
+        ],
+        "bateria": "100%"
+    },
+    {
+        "id": 4,
+        "marca": "Apple",
+        "modelo": "Iphone 7 Plus",
+        "precio": 210,
+        "sistema_operativo": "Apple",
+        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
+        "camara_principal": "12 MP",
+        "almacenamiento": "256 GB",
+        "ram": "8 GB",
+        "imagenes": [
+            "https://m.media-amazon.com/images/I/71WhKJqCGpL._AC_UF894,1000_QL80_.jpg",
+            "https://i.ebayimg.com/images/g/-9gAAOSwkWhlIJQ3/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/VFQAAOSwxotlIJQ4/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/OGoAAOSwsG5lIJQ6/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/Vy0AAOSw5N9lIJQ9/s-l1600.jpg"
+        ],
+        "stock":"1",
+        "bateria": "100%"
+    },
+    {
+        "id": 5,
+        "marca": "Apple",
+        "modelo": "Iphone 8",
+        "precio": 190,
+        "imagenes": [
+            "https://images.tokopedia.net/img/cache/700/VqbcmM/2023/6/3/bc3c3848-7fac-4f8d-a02e-12566a53246e.jpg",
+            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/383043122_7610119332348187_896263134914314446_n.jpg?stp=dst-jpg_p720x720&_nc_cat=100&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=zlSR03UantMAX9qhIHy&_nc_ht=scontent.fcor10-3.fna&oh=00_AfBjEyGvw98SKGhBrAzOeG1uji6-G5WczADas0_SZVfXCQ&oe=652A7D29",
+            "https://scontent.fcor10-4.fna.fbcdn.net/v/t45.5328-4/380781460_6857593620968732_7800868572826683688_n.jpg?stp=dst-jpg_p720x720&_nc_cat=103&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=Ip9LGbHzxgEAX8CPUYn&_nc_ht=scontent.fcor10-4.fna&oh=00_AfCXq7eL26ptRjs6DUuNVNSxrpJdkcsmC_ufOvNvN3aIHw&oe=6529DF9F",
+            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/380351708_6558666344228532_2176713395836920248_n.jpg?stp=dst-jpg_p720x720&_nc_cat=105&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=NvVHjIgwAaIAX_Kzj9L&_nc_ht=scontent.fcor10-3.fna&oh=00_AfD3ZgVOA2Hw-qLivGV2OHwiYZJMw10DTI-MxAnzScrkpw&oe=652A80AC",
+            "imagen5.jpg"
+        ],
+        "sistema_operativo": "Apple",
+        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
+        "camara_principal": "12 MP",
+        "almacenamiento": "64 GB",
+        "ram": "8 GB",
+        "stock":"1",
+        "bateria": "100%"
+    },
+    {
+        "id": 6,
+        "marca": "Apple",
+        "modelo": "Iphone 8",
+        "precio": 100,
+        "sistema_operativo": "Apple",
+        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
+        "camara_principal": "12 MP",
+        "almacenamiento": "128 GB",
+        "imagenes":[
+            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/379947961_6511111918938238_9054174508811690857_n.jpg?stp=dst-jpg_s960x960&_nc_cat=109&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=YpaAhohOlgoAX88dzkW&_nc_ht=scontent.fcor10-3.fna&oh=00_AfCZ-PjiQSboCEBlzANIOCouTankunenK06aI00DPIDZiQ&oe=652A21BD",
+            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/380810467_6114998031935456_51179637377264931_n.jpg?stp=dst-jpg_s960x960&_nc_cat=109&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=SU0zcLsp-UQAX_FJA5z&_nc_ht=scontent.fcor10-3.fna&oh=00_AfAhNJBButynAd-xfvdNcVF1kc4QuUjkK95Jo0wbggc7xg&oe=652B1536",
+            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/369298585_6743176475763016_7908586680997842934_n.jpg?stp=dst-jpg_s960x960&_nc_cat=104&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=aIlC9lMQGHMAX8QPfp9&_nc_ht=scontent.fcor10-3.fna&oh=00_AfAw5xh4YSi4W3IyOURASshN6OLT3mA8UVGHKK2lwmPLkA&oe=6529D527"
+        ],
+        "ram": "8 GB",
+        "stock":"3",
+        "bateria": "100%"
+    },
+    {
+        "id": 7,
+        "marca": "Apple",
+        "modelo": "Iphone x",
+        "imagenes": [
+            "https://scontent.fcor10-4.fna.fbcdn.net/v/t45.5328-4/382262980_6320607544715828_2702721357209441627_n.jpg?stp=dst-jpg_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=DmWZkEWjq2sAX8Ygj7e&_nc_ht=scontent.fcor10-4.fna&oh=00_AfBAg00Nfot8TNgbeU2rvlkQEu-xEszKICiNdbqZsGKP0w&oe=652ABD0F",
+            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/380912613_10027101587364845_8235618701506210783_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=gRiXrYT8S-gAX_U5hFx&_nc_oc=AQmhtIucvr0swogh1A6_qQ5McGACFmg01pAz1I5pap7GLtIwWqbGkf11uoK9X-NHyIxu1UflDqvq-U14uUUY8aX-&_nc_ht=scontent.fcor10-3.fna&oh=00_AfBaV5Fwitv4992-Q5my9esTVa1yk30_VaWCsnP7WknxVg&oe=652A93BD",
+            "https://scontent.fcor10-4.fna.fbcdn.net/v/t45.5328-4/379772460_7075454319166219_5683483065219717427_n.jpg?stp=dst-jpg_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=1XT_zRVDvGIAX-a7CBf&_nc_ht=scontent.fcor10-4.fna&oh=00_AfAPRbYV1j-dmqS32BW_pVWNqIDZTc0G3cbiWjuAoaT_Sw&oe=6529C61E",
+            "imagen4.jpg",
+            "imagen5.jpg"
+        ],
+        "precio": 100,
+        "sistema_operativo": "Apple",
+        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
+        "camara_principal": "12 MP",
+        "almacenamiento": "128 GB",
+        "ram": "8 GB",
+        "bateria": "100%"
+    },
+    {
+        "id": 8,
+        "marca": "Apple",
+        "modelo": "Iphone Xr",
+        "precio": 100,
+        "imagenes": [
+            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/362780761_6921449197876386_2295999975894613897_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=BZKbwMKid0IAX_YND5s&_nc_ht=scontent.fcor10-3.fna&oh=00_AfCOE-Hrc7ZFFdqHQqdevLKDRhF3uOICbg_fjYUyXPMWlA&oe=652AE234",
+            "https://scontent.fcor10-4.fna.fbcdn.net/v/t45.5328-4/377390636_7458297804284910_6214969868308558393_n.jpg?stp=dst-jpg_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=TJ4o_g5cMJ4AX9UksnX&_nc_ht=scontent.fcor10-4.fna&oh=00_AfCqFTzv3yhbCe6vkuFuvoM0ec5N8_g5ctnO7lc5rRJwxw&oe=652AC916",
+            "imagen3.jpg",
+            "imagen4.jpg",
+            "imagen5.jpg"
+        ],
+        "sistema_operativo": "Apple",
+        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
+        "camara_principal": "12 MP",
+        "almacenamiento": "128 GB",
+        "ram": "8 GB",
+        "bateria": "100%"
+    },
+    {
+        "id": 6,
+        "marca": "Apple",
+        "imagenes": [
+            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/381654750_7286824121345519_8745702987808710758_n.jpg?stp=dst-jpg_p720x720&_nc_cat=102&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=cNFB5OXLA78AX9rONCI&_nc_ht=scontent.fcor10-3.fna&oh=00_AfBHF8PVpzYaErFNAthiCcrEXVcj750qP4WNT_aL3CYP3Q&oe=652B525B",
+            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/383342569_24793235460275468_3432913022407734826_n.jpg?stp=dst-jpg_p720x720&_nc_cat=105&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=CTZNgouuRR0AX_4V-6m&_nc_ht=scontent.fcor10-3.fna&oh=00_AfB4HyBwW7z1oGu7sECRThzaojyhMmpU1x5iPhizJJmbBg&oe=652ADA40",
+            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/381003199_6841298299254297_8471813800287361291_n.jpg?stp=dst-jpg_p720x720&_nc_cat=107&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=DhmMdwcPn_0AX9Gar8b&_nc_ht=scontent.fcor10-3.fna&oh=00_AfAZQoGvN82Xh0RgY79305AfWo24Sp4GZml0GsV0Hma8qA&oe=652A1AE9",
+            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/381097992_7220767034621382_3272059192016529673_n.jpg?stp=dst-jpg_p720x720&_nc_cat=104&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=A8v2cVsgDsgAX9ho3y6&_nc_ht=scontent.fcor10-3.fna&oh=00_AfBf2jhn0pmvd1QwwnPjqAl1QtGunXXkgQPWVrlVKPIbOg&oe=652A26B2",
+            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/380856526_6927850573947191_7344623139313261892_n.jpg?stp=dst-jpg_p720x720&_nc_cat=104&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=AFWbBg3tCI0AX-d9itI&_nc_ht=scontent.fcor10-3.fna&oh=00_AfAvJmrfql4fU5TCEd23QJesZvaYjrBrYd0GjtdN4d4bJw&oe=652AC524"
+        ],
+        "modelo": "Iphone 14pro",
+        "precio": 100,
+        "sistema_operativo": "Apple",
+        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
+        "camara_principal": "12 MP",
+        "almacenamiento": "128 GB",
+        "ram": "8 GB",
+        "bateria": "100%"
+    },
+    {
+        "id": 6,
+        "marca": "Apple",
+        "modelo": "Iphone 7",
+        "imagenes": [
+            "https://scontent.fcor10-4.fna.fbcdn.net/v/t45.5328-4/376473123_6687959127918897_7441625070421619299_n.jpg?stp=dst-jpg_s960x960&_nc_cat=111&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=smBPwLAKHnAAX_LSw5k&_nc_ht=scontent.fcor10-4.fna&oh=00_AfCZ1sTkXQnyXWXP_oOjFM2mhXANI7ucwPk3zMd4ias6Sg&oe=65299C41",
+            "imagen2.jpg",
+            "imagen3.jpg",
+            "imagen4.jpg",
+            "imagen5.jpg"
+        ],
+        "precio": 100,
+        "sistema_operativo": "Apple",
+        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
+        "camara_principal": "12 MP",
+        "almacenamiento": "128 GB",
+        "ram": "8 GB",
+        "bateria": "100%"
+    },
+    {
+        "id": 6,
+        "marca": "Apple",
+        "modelo": "Iphone 7",
+        "imagenes": [
+            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/379851875_24183513721239593_2112437815108008329_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=eiaPgiA_ZGwAX_oxK1Z&_nc_ht=scontent.fcor10-3.fna&oh=00_AfBZSxOgBU4F_Wrh58LDq2eE6967Ov7MHy5PY4Vsi4Prqg&oe=6529EA43",
+            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/377808785_6850504645038581_3793238188906332325_n.jpg?stp=dst-jpg_s960x960&_nc_cat=101&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=fJ-GJnEZ-noAX8-AOHG&_nc_ht=scontent.fcor10-3.fna&oh=00_AfAGnOOKXEevdYb9toA3aoo-QRXcbcn_d7UbLcacMZpYFw&oe=652ABC05",
+            "imagen3.jpg",
+            "imagen4.jpg",
+            "imagen5.jpg"
+        ],
+        "precio": 100,
+        "sistema_operativo": "Apple",
+        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
+        "camara_principal": "12 MP",
+        "almacenamiento": "128 GB",
+        "ram": "8 GB",
+        "bateria": "100%"
+    },
+    {
+        "id": 6,
+        "marca": "Apple",
+        "modelo": "Iphone XR",
+        "precio": 100,
+        "sistema_operativo": "Apple",
+        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
+        "camara_principal": "12 MP",
+        "imagenes":[
+            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/375890697_6843893865676473_3708251571077735095_n.jpg?stp=dst-jpg_p720x720&_nc_cat=102&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=BrOa922Vyj8AX-sdFZ5&_nc_ht=scontent.fcor10-3.fna&oh=00_AfBnfghVtFjl7hWQE9O4zqK-fwF1ay0wW17VAh5Wds7ymQ&oe=652B00E6"
+        ],
+        "almacenamiento": "128 GB",
+        "ram": "8 GB",
+        "bateria": "100%"
+    },
+    {
+        "id": 6,
+        "marca": "Apple",
+        "imagenes": [
+            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/385792264_6793430164029022_8304894609015585597_n.jpg?stp=dst-jpg_s960x960&_nc_cat=100&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=r4SyWb1zsWcAX_M4K4H&_nc_ht=scontent.fcor10-3.fna&oh=00_AfD8S3bCMjcNftvepr8e6Y1UCU4vegHPYLPQk8hFD4VwMA&oe=6529D3BA",
+            "imagen2.jpg",
+            "imagen3.jpg",
+            "imagen4.jpg",
+            "imagen5.jpg"
+        ],
+        "modelo": "Iphone 11",
+        "precio": 100,
+        "sistema_operativo": "Apple",
+        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
+        "camara_principal": "12 MP",
+        "almacenamiento": "128 GB",
+        "ram": "8 GB",
+        "bateria": "100%"
+    },
+    {
+        "id": 6,
+        "marca": "Apple",
+        "modelo": "Iphone 11",
+        "precio": 100,
+        "imagenes": [
+            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/383678497_7123293924360889_7051611335827228816_n.jpg?stp=dst-jpg_s960x960&_nc_cat=104&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=eAA5E7-QCKQAX8yejhV&_nc_ht=scontent.fcor10-3.fna&oh=00_AfAaXdwjH_ozHtVT9q6qAAWv0Oc9CC0AibrZi3u5xO5bYA&oe=6529FA6A",
+            "imagen2.jpg",
+            "imagen3.jpg",
+            "imagen4.jpg",
+            "imagen5.jpg"
+        ],
+        "sistema_operativo": "Apple",
+        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
+        "camara_principal": "12 MP",
+        "almacenamiento": "128 GB",
+        "ram": "8 GB",
+        "bateria": "100%"
+    },
+    {
+        "id": 6,
+        "marca": "Apple",
+        "modelo": "Iphone 7",
+        "precio": 100,
+        "imagenes": [
+            "https://scontent.fcor10-4.fna.fbcdn.net/v/t45.5328-4/376533473_9918307164905946_1069372723167956641_n.jpg?stp=dst-jpg_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=N4-_yD5q-IkAX8er8Sm&_nc_ht=scontent.fcor10-4.fna&oh=00_AfDLsfq-NgvxQn872PkCb65FsiUxkN0ElGIjm2T66uu1Qg&oe=652AC5FB",
+            "imagen2.jpg",
+            "imagen3.jpg",
+            "imagen4.jpg",
+            "imagen5.jpg"
+        ],
+        "sistema_operativo": "Apple",
+        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
+        "camara_principal": "12 MP",
+        "almacenamiento": "128 GB",
+        "ram": "8 GB",
+        "bateria": "100%"
+    },
+    {
+        "id": 6,
+        "marca": "Apple",
+        "modelo": "Iphone 7",
+        "precio": 100,
+        "imagenes": [
+            "https://scontent.fcor10-4.fna.fbcdn.net/v/t45.5328-4/376533473_9918307164905946_1069372723167956641_n.jpg?stp=dst-jpg_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=N4-_yD5q-IkAX8er8Sm&_nc_ht=scontent.fcor10-4.fna&oh=00_AfDLsfq-NgvxQn872PkCb65FsiUxkN0ElGIjm2T66uu1Qg&oe=652AC5FB",
+            "imagen2.jpg",
+            "imagen3.jpg",
+            "imagen4.jpg",
+            "imagen5.jpg"
+        ],
+        "sistema_operativo": "Apple",
+        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
+        "camara_principal": "12 MP",
+        "almacenamiento": "128 GB",
+        "ram": "8 GB",
+        "bateria": "100%"
+    }
+]
