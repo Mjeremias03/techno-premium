@@ -4,7 +4,7 @@ import { GET_CELULARES,INFO_CELULARES,GET_CELULARESID } from "./actionTypes";
 export const getCelulares = () => {
     return async function (dispatch) {
       try {
-        const { data } = await axios.get("http://localhost:3001");
+        const { data } = await axios.get("https://techno-premium-production.up.railway.app/");
         dispatch({
           type: GET_CELULARES,
           payload: data,
@@ -18,7 +18,7 @@ export const getCelulares = () => {
   export const getCelularesId = () => {
     return async function (dispatch) {
       try {
-        const { data } = await axios.get("http://localhost:3001/celulares");
+        const { data } = await axios.get("https://techno-premium-production.up.railway.app/celulares");
         dispatch({
           type: GET_CELULARESID,
           payload: data,
@@ -32,7 +32,7 @@ export const getCelulares = () => {
   export const infoCelulares = ({id}) => {
     return async function (dispatch) {
       try {
-        const { data } = await axios.get(`http://localhost:3001/celulares/${id}`);
+        const { data } = await axios.get(`https://techno-premium-production.up.railway.app/celulares/${id}`);
         dispatch({
           type: INFO_CELULARES,
           payload: data,
