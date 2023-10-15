@@ -5,7 +5,7 @@ const { DB_PORT } = process.env;
 
 app.listen(DB_PORT, async () => {
   try {
-    await sequelize.sync({ force: true });
+    await sequelize.sync({ force: false });
     console.log(`Servidor en funcionamiento en el puerto ${DB_PORT}`);
   } catch (error) {
     console.error("Error al sincronizar la base de datos:", error);
