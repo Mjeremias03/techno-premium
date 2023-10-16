@@ -26,9 +26,9 @@ function Carrosel() {
       src="image (1).jpg"
       alt="11"
     />
-    <div className="absolute top-0 left-0 sm:w-full h-full flex flex-col justify-center items-center">
+    <div className="absolute top-0 left-0 sm:w-full mt-12 ml-16 md:mt-0 md:ml-0 h-full flex flex-col justify-center items-center">
       <span className="text-sm md:text-3xl text-white font-extrabold font-libre-baskerville">¡Bienvenido a nuestro mundo móvil!</span>
-      <h1 className="text-sm md:text-5xl text-indigo-700 font-libre-baskerville font-extrabold">Somos Tech Premium</h1>
+      <h1 className="text-sm md:text-5xl text-indigo-700 font-libre-baskerville font-extrabold">Somos Techo Premium</h1>
       <a className="p-4 text-white text-center" href="#Home">
         <div className="text-xs sm:text-4xl md:text-5xl text-white">
           <TbSortDescending size="30" className="hover:text-indigo-800 hover:cursor-pointer transition-all" />
@@ -37,9 +37,6 @@ function Carrosel() {
     </div>
   </div>
 </SwiperSlide>
-
-
-
 
 <SwiperSlide>
   <div className="relative">
