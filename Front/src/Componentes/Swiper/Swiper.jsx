@@ -16,24 +16,28 @@ function Carrosel() {
       scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => ""}
-      className="w-full mt-20 h-56 sm:h-[40%] md:h-[40%] lg:h-[40%] xl:h-[90%]"
+      className="w-full  h-56 sm:h-[40%] md:h-[40%] lg:h-[40%] xl:h-[90%]"
       autoplay={{ delay: 6000, disableOnInteraction: false }}
     >
- <SwiperSlide>
+<SwiperSlide>
   <div className="relative">
     <img
       className="w-full h-full object-cover object-center"
       src="image (1).jpg"
       alt="11"
     />
-    <div className="absolute top-0 left-0 w-full h-1/2 flex flex-col justify-center items-center">
-      <span className="text-5xl text-indigo-700 font-extrabold font-libre-baskerville">Bienvenido</span> <h1 className="text-5xl text-white font-libre-baskerville font-extrabold ">Somos Tech Premium Cba</h1>
-    <a className="p-4 text-white " href="#Home">
-  <TbSortDescending size="50" className="hover:text-indigo-800 hover:cursor-pointer transition-all" />
-</a>
+    <div className="absolute top-0 left-0 sm:w-full h-full flex flex-col justify-center items-center">
+      <span className="text-sm md:text-3xl text-white font-extrabold font-libre-baskerville">¡Bienvenido a nuestro mundo móvil!</span>
+      <h1 className="text-sm md:text-5xl text-indigo-700 font-libre-baskerville font-extrabold">Somos Tech Premium</h1>
+      <a className="p-4 text-white text-center" href="#Home">
+        <div className="text-xs sm:text-4xl md:text-5xl text-white">
+          <TbSortDescending size="30" className="hover:text-indigo-800 hover:cursor-pointer transition-all" />
+        </div>
+      </a>
     </div>
   </div>
 </SwiperSlide>
+
 
 
 

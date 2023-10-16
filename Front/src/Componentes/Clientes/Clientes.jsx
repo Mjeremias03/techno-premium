@@ -6,8 +6,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const Clientes = () => {
   return (
-    <div className="p-6 md:p-12 lg:p-24 bg-gradient-to-r from-rose-100 to-teal-100 mt-28 flex flex-wrap justify-center">
-      <div className="w-full lg:w-1/2 p-4 md:p-6 lg:p-8 rounded-xl">
+    <div id="Clientes" className="p-6 md:p-12 h-3/4 lg:p-24 bg-gradient-to-r items-center bg-slate-300 mt-28 flex flex-wrap justify-center">
+      <div className="w-full justify-center items-center mx-auto lg:w-1/2 p-4 md:p-6 lg:p-8 rounded-xl">
         <h1 className="text-3xl md:text-4xl font-semibold font-serif text-indigo-800 mb-4">¿Por qué elegir TechPremium CBA?</h1>
         <p className="text-lg md:text-xl font-serif mb-4">Porque tu satisfacción es nuestra prioridad.</p>
         <p className="text-sm md:text-base">
@@ -53,7 +53,69 @@ const Clientes = () => {
                 />
               </div>
             </SwiperSlide>
-            {/* Agregar más imágenes de clientes satisfechos aquí */}
+            <SwiperSlide>
+              <div className="w-full h-full flex items-center justify-center">
+                <img
+                  src="/clientes/gringo.jfif"
+                  className="max-h-full max-w-full"
+                  alt="Cliente 2"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="w-full h-full flex items-center justify-center">
+                <img
+                  src="/clientes/lautaro.jfif"
+                  className="max-h-full max-w-full"
+                  alt="Cliente 2"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="w-full h-full flex items-center justify-center">
+                <img
+                  src="/clientes/guada.jfif"
+                  className="max-h-full max-w-full"
+                  alt="Cliente 2"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="w-full h-full flex items-center justify-center">
+                <img
+                  src="/clientes/guille.jfif"
+                  className="max-h-full max-w-full"
+                  alt="Cliente 2"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="w-full h-full flex items-center justify-center">
+                <img
+                  src="/clientes/lucho.jfif"
+                  className="max-h-full max-w-full"
+                  alt="Cliente 2"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="w-full h-full flex items-center justify-center">
+                <img
+                  src="/clientes/ramiro.jfif"
+                  className="max-h-full max-w-full"
+                  alt="Cliente 2"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="w-full h-full flex items-center justify-center">
+                <img
+                  src="/clientes/tobi.jfif"
+                  className="max-h-full max-w-full"
+                  alt="Cliente 2"
+                />
+              </div>
+            </SwiperSlide>
           </Swiper>
         </div>
       </div>
