@@ -19,9 +19,6 @@ module.exports = (sequelize) => sequelize.define('Iphone', {
     type: DataTypes.STRING,
     allowNull: false,
   },
-  imagenes: {
-    type: DataTypes.ARRAY(DataTypes.TEXT), // Changed to an array of strings
-  },
   ram: {
     type: DataTypes.STRING,
     allowNull: false,

@@ -21,7 +21,6 @@ const getCelular = async (req, res) => {
       almacenamiento: elemento.almacenamiento,
       ram: elemento.ram,
       bateria: elemento.bateria,
-      imagenes: Array.isArray(elemento.imagenes) ? elemento.imagenes.map((el) => el):"0"
     }));
     
 
@@ -38,11 +37,11 @@ const getCelular = async (req, res) => {
 
     //   if (!exist) {
     //     console.log("Insertando celular:", celular.marca, celular.modelo);
-    //     await Iphone.create(celular);
     //   } else {
-    //     console.log("Ya existe este celular:", celular.marca, celular.modelo);
-    //   }
-    // }
+      //     console.log("Ya existe este celular:", celular.marca, celular.modelo);
+      //   }
+      // }
+     Iphone.bulkCreate(newData);
     res.status(200).json(newData);
   } catch (error) {
     console.error("Error al guardar celulares en la base de datos:", error);

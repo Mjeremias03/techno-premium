@@ -15,6 +15,11 @@ module.exports = (sequelize) => {
     ruta: {
       type: DataTypes.STRING,
       allowNull: false,
+    },createdAt: {
+      type: DataTypes.DATE, // O el tipo de dato correcto
+      
+     
+  allowNull: false, // Puede variar según tus requisitos
     },
   });
 
