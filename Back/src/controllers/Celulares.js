@@ -28,21 +28,21 @@ const getCelular = async (req, res) => {
     // Conecta a la base de datos
     await sequelize.authenticate();
 
-    for (const celular of newData) {
-      const exist = await Iphone.findOne({
-        where: {
-          marca: celular.marca,
-          modelo: celular.modelo,
-        },
-      });
+    // for (const celular of newData) {
+    //   const exist = await Iphone.findOne({
+    //     where: {
+    //       marca: celular.marca,
+    //       modelo: celular.modelo,
+    //     },
+    //   });
 
-      if (!exist) {
-        console.log("Insertando celular:", celular.marca, celular.modelo);
-        await Iphone.create(celular);
-      } else {
-        console.log("Ya existe este celular:", celular.marca, celular.modelo);
-      }
-    }
+    //   if (!exist) {
+    //     console.log("Insertando celular:", celular.marca, celular.modelo);
+    //     await Iphone.create(celular);
+    //   } else {
+    //     console.log("Ya existe este celular:", celular.marca, celular.modelo);
+    //   }
+    // }
     res.status(200).json(newData);
   } catch (error) {
     console.error("Error al guardar celulares en la base de datos:", error);

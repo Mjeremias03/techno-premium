@@ -19,6 +19,9 @@ module.exports = (sequelize) => sequelize.define('Iphone', {
     type: DataTypes.STRING,
     allowNull: false,
   },
+  imagenes: {
+    type: DataTypes.ARRAY(DataTypes.TEXT), // Changed to an array of strings
+  },
   ram: {
     type: DataTypes.STRING,
     allowNull: false,
@@ -26,6 +29,11 @@ module.exports = (sequelize) => sequelize.define('Iphone', {
   bateria: {
     type: DataTypes.STRING,
     allowNull: false,
+  },
+  id: {
+    type: DataTypes.UUID,
+    primaryKey: true,
+    defaultValue: DataTypes.UUIDV4,
   },
   description: {
     type: DataTypes.TEXT,

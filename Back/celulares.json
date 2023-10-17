@@ -11,7 +11,6 @@
         "ram": "8 GB",
         "imagenes": [
             "https://http2.mlstatic.com/D_NQ_NP_736654-MLA49312671269_032022-O.webp"
-           
         ],
         "stock":"1",
         "bateria": "100%"
@@ -28,7 +27,6 @@
         "ram": "6 GB",
         "imagenes": [
             "https://http2.mlstatic.com/D_NQ_NP_961488-MLA49255685875_032022-O.webp"
-         
         ],
         "bateria": "100%"
     },
@@ -45,7 +43,6 @@
         "stock":"1",
         "imagenes": [
             "https://http2.mlstatic.com/D_NQ_NP_766355-MLA71635243788_092023-O.webp"
-        
         ],
         "bateria": "100%"
     },
@@ -168,7 +165,6 @@
         "modelo": "Iphone 7",
         "imagenes": [
             "https://http2.mlstatic.com/D_NQ_NP_783515-MLA49297370145_032022-O.webp"
-           
         ],
         "precio": 100,
         "sistema_operativo": "Apple",
