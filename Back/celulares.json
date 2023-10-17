@@ -108,9 +108,11 @@
         "camara_principal": "12 MP",
         "almacenamiento": "128 GB",
         "imagenes":[
-            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/379947961_6511111918938238_9054174508811690857_n.jpg?stp=dst-jpg_s960x960&_nc_cat=109&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=YpaAhohOlgoAX88dzkW&_nc_ht=scontent.fcor10-3.fna&oh=00_AfCZ-PjiQSboCEBlzANIOCouTankunenK06aI00DPIDZiQ&oe=652A21BD",
-            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/380810467_6114998031935456_51179637377264931_n.jpg?stp=dst-jpg_s960x960&_nc_cat=109&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=SU0zcLsp-UQAX_FJA5z&_nc_ht=scontent.fcor10-3.fna&oh=00_AfAhNJBButynAd-xfvdNcVF1kc4QuUjkK95Jo0wbggc7xg&oe=652B1536",
-            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/369298585_6743176475763016_7908586680997842934_n.jpg?stp=dst-jpg_s960x960&_nc_cat=104&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=aIlC9lMQGHMAX8QPfp9&_nc_ht=scontent.fcor10-3.fna&oh=00_AfAw5xh4YSi4W3IyOURASshN6OLT3mA8UVGHKK2lwmPLkA&oe=6529D527"
+            "https://http2.mlstatic.com/D_NQ_NP_879247-MLA71542736742_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_872197-MLA72164868389_102023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_852914-MLA72104481314_102023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_967743-MLA72104393212_102023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_837561-MLA72164632881_102023-O.webp"
         ],
         "ram": "8 GB",
         "stock":"3",
@@ -178,7 +180,7 @@
         "marca": "Apple",
         "modelo": "Iphone 7",
         "imagenes": [
-            "https://scontent.fcor10-4.fna.fbcdn.net/v/t45.5328-4/376473123_6687959127918897_7441625070421619299_n.jpg?stp=dst-jpg_s960x960&_nc_cat=111&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=smBPwLAKHnAAX_LSw5k&_nc_ht=scontent.fcor10-4.fna&oh=00_AfCZ1sTkXQnyXWXP_oOjFM2mhXANI7ucwPk3zMd4ias6Sg&oe=65299C41",
+            "https://http2.mlstatic.com/D_NQ_NP_783515-MLA49297370145_032022-O.webp",
             "imagen2.jpg",
             "imagen3.jpg",
             "imagen4.jpg",
@@ -195,13 +197,13 @@
     {
         "id": 6,
         "marca": "Apple",
-        "modelo": "Iphone 7",
+        "modelo": "Iphone 8Plus",
         "imagenes": [
-            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/379851875_24183513721239593_2112437815108008329_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=eiaPgiA_ZGwAX_oxK1Z&_nc_ht=scontent.fcor10-3.fna&oh=00_AfBZSxOgBU4F_Wrh58LDq2eE6967Ov7MHy5PY4Vsi4Prqg&oe=6529EA43",
-            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/377808785_6850504645038581_3793238188906332325_n.jpg?stp=dst-jpg_s960x960&_nc_cat=101&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=fJ-GJnEZ-noAX8-AOHG&_nc_ht=scontent.fcor10-3.fna&oh=00_AfAGnOOKXEevdYb9toA3aoo-QRXcbcn_d7UbLcacMZpYFw&oe=652ABC05",
-            "imagen3.jpg",
-            "imagen4.jpg",
-            "imagen5.jpg"
+            "https://http2.mlstatic.com/D_NQ_NP_914657-MLA70155341055_062023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_835273-MLA70134381922_062023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_744226-MLA70134381924_062023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_689790-MLA70134381926_062023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_864436-MLA70134381928_062023-O.webp"
         ],
         "precio": 100,
         "sistema_operativo": "Apple",
@@ -220,7 +222,11 @@
         "pantalla":"pantalla Retina HD de 4,7 pulgadas",
         "camara_principal": "12 MP",
         "imagenes":[
-            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/375890697_6843893865676473_3708251571077735095_n.jpg?stp=dst-jpg_p720x720&_nc_cat=102&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=BrOa922Vyj8AX-sdFZ5&_nc_ht=scontent.fcor10-3.fna&oh=00_AfBnfghVtFjl7hWQE9O4zqK-fwF1ay0wW17VAh5Wds7ymQ&oe=652B00E6"
+            "https://http2.mlstatic.com/D_NQ_NP_681453-MLA72021250187_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_644045-MLA72021182073_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_906490-MLA71964871514_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_926118-MLA71964920926_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_818612-MLA71964881244_092023-O.webp"
         ],
         "almacenamiento": "128 GB",
         "ram": "8 GB",
@@ -230,11 +236,11 @@
         "id": 6,
         "marca": "Apple",
         "imagenes": [
-            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/385792264_6793430164029022_8304894609015585597_n.jpg?stp=dst-jpg_s960x960&_nc_cat=100&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=r4SyWb1zsWcAX_M4K4H&_nc_ht=scontent.fcor10-3.fna&oh=00_AfD8S3bCMjcNftvepr8e6Y1UCU4vegHPYLPQk8hFD4VwMA&oe=6529D3BA",
-            "imagen2.jpg",
-            "imagen3.jpg",
-            "imagen4.jpg",
-            "imagen5.jpg"
+            "https://http2.mlstatic.com/D_NQ_NP_986406-MLA71526160797_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_626723-MLA71519035240_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_822180-MLA71518908670_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_632255-MLA71566408829_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_630066-MLA71518594578_092023-O.webp"
         ],
         "modelo": "Iphone 11",
         "precio": 100,
@@ -251,11 +257,11 @@
         "modelo": "Iphone 11",
         "precio": 100,
         "imagenes": [
-            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/383678497_7123293924360889_7051611335827228816_n.jpg?stp=dst-jpg_s960x960&_nc_cat=104&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=eAA5E7-QCKQAX8yejhV&_nc_ht=scontent.fcor10-3.fna&oh=00_AfAaXdwjH_ozHtVT9q6qAAWv0Oc9CC0AibrZi3u5xO5bYA&oe=6529FA6A",
-            "imagen2.jpg",
-            "imagen3.jpg",
-            "imagen4.jpg",
-            "imagen5.jpg"
+            "https://http2.mlstatic.com/D_NQ_NP_711770-MLA71524390453_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_828406-MLA71565416307_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_742545-MLA71517935758_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_740443-MLA71565456039_092023-O.webp"
+            
         ],
         "sistema_operativo": "Apple",
         "pantalla":"pantalla Retina HD de 4,7 pulgadas",
@@ -267,14 +273,14 @@
     {
         "id": 6,
         "marca": "Apple",
-        "modelo": "Iphone 7",
+        "modelo": "Iphone 11 pro",
         "precio": 100,
         "imagenes": [
-            "https://scontent.fcor10-4.fna.fbcdn.net/v/t45.5328-4/376533473_9918307164905946_1069372723167956641_n.jpg?stp=dst-jpg_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=N4-_yD5q-IkAX8er8Sm&_nc_ht=scontent.fcor10-4.fna&oh=00_AfDLsfq-NgvxQn872PkCb65FsiUxkN0ElGIjm2T66uu1Qg&oe=652AC5FB",
-            "imagen2.jpg",
-            "imagen3.jpg",
-            "imagen4.jpg",
-            "imagen5.jpg"
+            "https://http2.mlstatic.com/D_NQ_NP_695863-MLA32646836777_102019-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_656206-MLA71965196166_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_729020-MLA72021507503_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_776172-MLA72021507513_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_973121-MLA72021468075_092023-O.webp"
         ],
         "sistema_operativo": "Apple",
         "pantalla":"pantalla Retina HD de 4,7 pulgadas",
@@ -286,14 +292,14 @@
     {
         "id": 6,
         "marca": "Apple",
-        "modelo": "Iphone 7",
+        "modelo": "Iphone x",
         "precio": 100,
         "imagenes": [
-            "https://scontent.fcor10-4.fna.fbcdn.net/v/t45.5328-4/376533473_9918307164905946_1069372723167956641_n.jpg?stp=dst-jpg_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=N4-_yD5q-IkAX8er8Sm&_nc_ht=scontent.fcor10-4.fna&oh=00_AfDLsfq-NgvxQn872PkCb65FsiUxkN0ElGIjm2T66uu1Qg&oe=652AC5FB",
-            "imagen2.jpg",
-            "imagen3.jpg",
-            "imagen4.jpg",
-            "imagen5.jpg"
+            "https://http2.mlstatic.com/D_NQ_NP_882768-MLA72109667703_102023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_752252-MLA72050518844_102023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_680533-MLA72109549523_102023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_828461-MLA72050865388_102023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_774496-MLA72050538504_102023-O.webp"
         ],
         "sistema_operativo": "Apple",
         "pantalla":"pantalla Retina HD de 4,7 pulgadas",
