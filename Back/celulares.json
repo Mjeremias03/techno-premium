@@ -10,11 +10,8 @@
         "almacenamiento": "32GB",
         "ram": "8 GB",
         "imagenes": [
-            "https://http2.mlstatic.com/D_NQ_NP_736654-MLA49312671269_032022-O.webp",
-            "https://i.ebayimg.com/images/g/pH8AAOSwy5FkVWHL/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/6~gAAOSwRTlkVWHK/s-l1600.jpg",
-            "imagen4.jpg",
-            "imagen5.jpg"
+            "https://http2.mlstatic.com/D_NQ_NP_736654-MLA49312671269_032022-O.webp"
+           
         ],
         "stock":"1",
         "bateria": "100%"
@@ -30,11 +27,8 @@
         "almacenamiento": "256 GB",
         "ram": "6 GB",
         "imagenes": [
-            "https://http2.mlstatic.com/D_NQ_NP_961488-MLA49255685875_032022-O.webp",
-            "imagen2.jpg",
-            "imagen3.jpg",
-            "imagen4.jpg",
-            "imagen5.jpg"
+            "https://http2.mlstatic.com/D_NQ_NP_961488-MLA49255685875_032022-O.webp"
+         
         ],
         "bateria": "100%"
     },
@@ -50,11 +44,8 @@
         "ram": "8 GB",
         "stock":"1",
         "imagenes": [
-            "https://http2.mlstatic.com/D_NQ_NP_766355-MLA71635243788_092023-O.webp",
-            "https://i.ebayimg.com/images/g/mR0AAOSwiqplJXV6/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/FU8AAOSwl51lJXV6/s-l1600.jpg",
-            "imagen4.jpg",
-            "imagen5.jpg"
+            "https://http2.mlstatic.com/D_NQ_NP_766355-MLA71635243788_092023-O.webp"
+        
         ],
         "bateria": "100%"
     },
@@ -84,8 +75,7 @@
         "modelo": "Iphone 8",
         "precio": 190,
         "imagenes": [
-            "https://images.tokopedia.net/img/cache/700/VqbcmM/2023/6/3/bc3c3848-7fac-4f8d-a02e-12566a53246e.jpg",
-            "imagen5.jpg"
+        "https://d28hi93gr697ol.cloudfront.net/9ef84dda-32dd-4016-7da3-1c0a824fffb4/img/Producto/00214f4c-b6ad-d96d-0bc6-11369f838132/iphone-8-1-6317ed5a36872.jpg"
         ],
         "sistema_operativo": "Apple",
         "pantalla":"pantalla Retina HD de 4,7 pulgadas",
@@ -118,7 +108,7 @@
     {
         "id": 7,
         "marca": "Apple",
-        "modelo": "Iphone x",
+        "modelo": "Iphone xr",
         "imagenes": [
             "https://http2.mlstatic.com/D_NQ_NP_858917-MLA71474224208_092023-O.webp",
             "https://http2.mlstatic.com/D_NQ_NP_862354-MLA71474625422_092023-O.webp",
@@ -177,11 +167,8 @@
         "marca": "Apple",
         "modelo": "Iphone 7",
         "imagenes": [
-            "https://http2.mlstatic.com/D_NQ_NP_783515-MLA49297370145_032022-O.webp",
-            "imagen2.jpg",
-            "imagen3.jpg",
-            "imagen4.jpg",
-            "imagen5.jpg"
+            "https://http2.mlstatic.com/D_NQ_NP_783515-MLA49297370145_032022-O.webp"
+           
         ],
         "precio": 100,
         "sistema_operativo": "Apple",

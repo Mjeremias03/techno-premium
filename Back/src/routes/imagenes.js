@@ -1,6 +1,7 @@
-const {Router} = require("express")
-const getImagenes = require("../controllers/imagenes")
-const imaganesRouter = Router()
-imaganesRouter.get("/", getImagenes)
+const { Router } = require('express');
+const getImagenes = require('../controllers/imagenes');
+const imagenesRouter = Router();
 
-module.exports= imaganesRouter
+imagenesRouter.get('/:modelo/:imagen', getImagenes);
+
+module.exports = imagenesRouter;

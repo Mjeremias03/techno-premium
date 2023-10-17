@@ -16,6 +16,8 @@ const sequelize = new Sequelize(DB_BASE, DB_USER, DB_PASSWORD, {
 
 Iphone(sequelize)
 Imagenes(sequelize)
+
+
 module.exports = {
   ...sequelize.models,
   sequelize
