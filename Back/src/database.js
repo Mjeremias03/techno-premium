@@ -1,5 +1,6 @@
 const { Sequelize } = require('sequelize');
 const Iphone = require("./models/Iphone")
+const Imagenes = require("./models/Imagenes")
 require('dotenv').config()
 const {
   DB_USER, DB_PASSWORD, DB_HOST,
@@ -10,11 +11,11 @@ const sequelize = new Sequelize(DB_BASE, DB_USER, DB_PASSWORD, {
   host: DB_HOST,
   port: DB_PORT,
   dialect: 'postgres',
-  logging: console.log // Utiliza la función console.log para el registro
+  logging: false 
 });
 
 Iphone(sequelize)
-
+Imagenes(sequelize)
 module.exports = {
   ...sequelize.models,
   sequelize

@@ -121,11 +121,11 @@
         "marca": "Apple",
         "modelo": "Iphone x",
         "imagenes": [
-            "https://scontent.fcor10-4.fna.fbcdn.net/v/t45.5328-4/382262980_6320607544715828_2702721357209441627_n.jpg?stp=dst-jpg_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=DmWZkEWjq2sAX8Ygj7e&_nc_ht=scontent.fcor10-4.fna&oh=00_AfBAg00Nfot8TNgbeU2rvlkQEu-xEszKICiNdbqZsGKP0w&oe=652ABD0F",
-            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/380912613_10027101587364845_8235618701506210783_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=gRiXrYT8S-gAX_U5hFx&_nc_oc=AQmhtIucvr0swogh1A6_qQ5McGACFmg01pAz1I5pap7GLtIwWqbGkf11uoK9X-NHyIxu1UflDqvq-U14uUUY8aX-&_nc_ht=scontent.fcor10-3.fna&oh=00_AfBaV5Fwitv4992-Q5my9esTVa1yk30_VaWCsnP7WknxVg&oe=652A93BD",
-            "https://scontent.fcor10-4.fna.fbcdn.net/v/t45.5328-4/379772460_7075454319166219_5683483065219717427_n.jpg?stp=dst-jpg_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=1XT_zRVDvGIAX-a7CBf&_nc_ht=scontent.fcor10-4.fna&oh=00_AfAPRbYV1j-dmqS32BW_pVWNqIDZTc0G3cbiWjuAoaT_Sw&oe=6529C61E",
-            "imagen4.jpg",
-            "imagen5.jpg"
+            "https://http2.mlstatic.com/D_NQ_NP_858917-MLA71474224208_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_862354-MLA71474625422_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_707266-MLA71474470292_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_720982-MLA72079421855_102023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_903980-MLA72079284387_102023-O.webp"
         ],
         "precio": 100,
         "sistema_operativo": "Apple",
@@ -141,11 +141,11 @@
         "modelo": "Iphone Xr",
         "precio": 100,
         "imagenes": [
-            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/362780761_6921449197876386_2295999975894613897_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=BZKbwMKid0IAX_YND5s&_nc_ht=scontent.fcor10-3.fna&oh=00_AfCOE-Hrc7ZFFdqHQqdevLKDRhF3uOICbg_fjYUyXPMWlA&oe=652AE234",
-            "https://scontent.fcor10-4.fna.fbcdn.net/v/t45.5328-4/377390636_7458297804284910_6214969868308558393_n.jpg?stp=dst-jpg_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=TJ4o_g5cMJ4AX9UksnX&_nc_ht=scontent.fcor10-4.fna&oh=00_AfCqFTzv3yhbCe6vkuFuvoM0ec5N8_g5ctnO7lc5rRJwxw&oe=652AC916",
-            "imagen3.jpg",
-            "imagen4.jpg",
-            "imagen5.jpg"
+            "https://http2.mlstatic.com/D_NQ_NP_676901-MLA71524366705_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_863142-MLA71455074905_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_987598-MLA71409753330_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_683556-MLA71409669472_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_750654-MLA71409632022_092023-O.webp"
         ],
         "sistema_operativo": "Apple",
         "pantalla":"pantalla Retina HD de 4,7 pulgadas",
@@ -158,11 +158,11 @@
         "id": 6,
         "marca": "Apple",
         "imagenes": [
-            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/381654750_7286824121345519_8745702987808710758_n.jpg?stp=dst-jpg_p720x720&_nc_cat=102&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=cNFB5OXLA78AX9rONCI&_nc_ht=scontent.fcor10-3.fna&oh=00_AfBHF8PVpzYaErFNAthiCcrEXVcj750qP4WNT_aL3CYP3Q&oe=652B525B",
-            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/383342569_24793235460275468_3432913022407734826_n.jpg?stp=dst-jpg_p720x720&_nc_cat=105&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=CTZNgouuRR0AX_4V-6m&_nc_ht=scontent.fcor10-3.fna&oh=00_AfB4HyBwW7z1oGu7sECRThzaojyhMmpU1x5iPhizJJmbBg&oe=652ADA40",
-            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/381003199_6841298299254297_8471813800287361291_n.jpg?stp=dst-jpg_p720x720&_nc_cat=107&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=DhmMdwcPn_0AX9Gar8b&_nc_ht=scontent.fcor10-3.fna&oh=00_AfAZQoGvN82Xh0RgY79305AfWo24Sp4GZml0GsV0Hma8qA&oe=652A1AE9",
-            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/381097992_7220767034621382_3272059192016529673_n.jpg?stp=dst-jpg_p720x720&_nc_cat=104&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=A8v2cVsgDsgAX9ho3y6&_nc_ht=scontent.fcor10-3.fna&oh=00_AfBf2jhn0pmvd1QwwnPjqAl1QtGunXXkgQPWVrlVKPIbOg&oe=652A26B2",
-            "https://scontent.fcor10-3.fna.fbcdn.net/v/t45.5328-4/380856526_6927850573947191_7344623139313261892_n.jpg?stp=dst-jpg_p720x720&_nc_cat=104&ccb=1-7&_nc_sid=1a0e84&_nc_ohc=AFWbBg3tCI0AX-d9itI&_nc_ht=scontent.fcor10-3.fna&oh=00_AfAvJmrfql4fU5TCEd23QJesZvaYjrBrYd0GjtdN4d4bJw&oe=652AC524"
+            "https://http2.mlstatic.com/D_NQ_NP_913741-MLM51559386469_092022-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_847325-MLM51559386473_092022-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_652291-MLM51559388199_092022-O.webp",
+            "https://http2.mlstatic.com/D_Q_NP_908818-MLM51559388192_092022-R.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_871755-MLM51559388196_092022-O.webp"
         ],
         "modelo": "Iphone 14pro",
         "precio": 100,
