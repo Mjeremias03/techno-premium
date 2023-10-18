@@ -1,4 +1,5 @@
-const { Iphone } = require('../database');
+const { where } = require('sequelize');
+const { Iphone, Imagenes } = require("../database");
 
 const getCelular = async (req, res) => {
     const { id } = req.params;
@@ -16,16 +17,19 @@ const getCelular = async (req, res) => {
 };
 
 
-const getCelulares = async (req,res) =>{
+const getCelulares = async (req, res) => {
     try {
-        const celulares = await Iphone.findAll() 
-        celulares? res.json(celulares): res.json("throwError")
+        console.log(Imagenes)
+        const celulares = await Iphone.findAll({
+            include: Imagenes, // Esto incluirá las imágenes relacionadas
+        });
+        res.json(celulares);
     } catch (error) {
-        res.json(error=error.message)
+        console.error("Error al obtener celulares con imágenes:", error);
+        res.status(500).json({ error: "Error al procesar los datos." });
     }
-   
-    
-}
+};
+
 module.exports = {
     getCelular,
     getCelulares

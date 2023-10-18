@@ -177,7 +177,7 @@
     {
         "id": 6,
         "marca": "Apple",
-        "modelo": "Iphone 8Plus",
+        "modelo": "Iphone 8 Plus",
         "imagenes": [
             "https://http2.mlstatic.com/D_NQ_NP_914657-MLA70155341055_062023-O.webp",
             "https://http2.mlstatic.com/D_NQ_NP_835273-MLA70134381922_062023-O.webp",
@@ -196,7 +196,7 @@
     {
         "id": 6,
         "marca": "Apple",
-        "modelo": "Iphone XR",
+        "modelo": "Iphone XR Red",
         "precio": 100,
         "sistema_operativo": "Apple",
         "pantalla":"pantalla Retina HD de 4,7 pulgadas",
@@ -222,7 +222,7 @@
             "https://http2.mlstatic.com/D_NQ_NP_632255-MLA71566408829_092023-O.webp",
             "https://http2.mlstatic.com/D_NQ_NP_630066-MLA71518594578_092023-O.webp"
         ],
-        "modelo": "Iphone 11",
+        "modelo": "Iphone 11 Black",
         "precio": 100,
         "sistema_operativo": "Apple",
         "pantalla":"pantalla Retina HD de 4,7 pulgadas",
