@@ -46,7 +46,8 @@ const getCelular = async (req, res) => {
     //   }
     // }
 
-    // Solo envía los datos, no necesitas incluir opciones aquí
+    await Iphone.bulkCreate(newData)
+    console.log(Iphone)
     res.status(200).json(newData);
   } catch (error) {
     console.error("Error al guardar celulares en la base de datos:", error);

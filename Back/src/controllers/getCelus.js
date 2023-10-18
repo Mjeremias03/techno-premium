@@ -1,5 +1,5 @@
 const { where } = require('sequelize');
-const { Iphone, Imagenes } = require("../database");
+const { Iphone } = require('../database');
 
 const getCelular = async (req, res) => {
     const { id } = req.params;
@@ -19,7 +19,7 @@ const getCelular = async (req, res) => {
 
 const getCelulares = async (req, res) => {
     try {
-        console.log(Imagenes)
+        console.log(Iphone)
         const celulares = await Iphone.findAll();
         res.json(celulares);
     } catch (error) {

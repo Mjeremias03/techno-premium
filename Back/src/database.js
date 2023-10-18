@@ -22,6 +22,6 @@ Imagenes(sequelize)
 
 
 module.exports = {
- ...sequelize.model,
+ ...sequelize.models,
   sequelize
 };
