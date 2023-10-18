@@ -15,6 +15,7 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
+        dispatch(getCelulares());
         await dispatch(getCelularesId())
       } catch (error) {
         console.error("Error al obtener celulares:", error);
