@@ -17,6 +17,9 @@ module.exports = (sequelize) => {
       type: DataTypes.FLOAT,
       allowNull: false,
     },
+    imagenes: {
+      type: DataTypes.ARRAY(DataTypes.TEXT)
+    },
     almacenamiento: {
       type: DataTypes.STRING,
       allowNull: false,
