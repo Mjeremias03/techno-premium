@@ -7,7 +7,7 @@ const morgan = require("morgan");
 
 // Habilitar solicitudes CORS solo desde un origen específico (reemplaza 'https://techno-premium.vercel.app' con tu dominio)
 const corsOptions = {
-  origin: "*",
+  origin: "https://techno-premium.vercel.app",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
 };
 
