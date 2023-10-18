@@ -20,9 +20,7 @@ const getCelular = async (req, res) => {
 const getCelulares = async (req, res) => {
     try {
         console.log(Imagenes)
-        const celulares = await Iphone.findAll({
-            include: Imagenes, // Esto incluirá las imágenes relacionadas
-        });
+        const celulares = await Iphone.findAll();
         res.json(celulares);
     } catch (error) {
         console.error("Error al obtener celulares con imágenes:", error);
