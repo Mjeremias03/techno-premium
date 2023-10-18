@@ -1,6 +1,6 @@
 const { Sequelize } = require('sequelize');
-const IphoneModel = require("./models/Iphone"); // Importa el modelo Iphone
-const ImagenesModel = require("./models/Imagenes"); // Importa el modelo Imagenes
+const Iphone = require('./models/Iphone');
+const Imagenes = require('./models/Imagenes');
 require('dotenv').config();
 
 const {
@@ -16,13 +16,12 @@ const sequelize = new Sequelize(DB_BASE, DB_USER, DB_PASSWORD, {
 });
 
 // Define las relaciones entre los modelos
-const Iphone = IphoneModel(sequelize);
-const Imagenes = ImagenesModel(sequelize);
+Iphone(sequelize)
+Imagenes(sequelize)
 
-Iphone.hasMany(Imagenes, { foreignKey: 'iphoneId' });
+
 
 module.exports = {
-  Iphone,
-  Imagenes,
+ ...sequelize.model,
   sequelize
 };
