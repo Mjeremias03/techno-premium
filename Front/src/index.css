@@ -8,6 +8,23 @@ body {
   margin: 0;
   padding: 0;
 }
+
 html {
   scroll-behavior: smooth;
 }
+/* Cambia el color de la barra de desplazamiento a negro */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Fondo de la barra de desplazamiento en gris elegante */
+::-webkit-scrollbar-track {
+  background: #999; /* Color de fondo de la barra de desplazamiento */
+}
+
+/* Pulgar de la barra de desplazamiento en negro */
+::-webkit-scrollbar-thumb {
+  background-color: black; /* Color del pulgar de la barra de desplazamiento */
+ 
+}
+
