@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const Clientes = () => {
   return (
-    <div id="Clientes" className="p-6 md:p-12 lg:p-24 bg-gradient-to-r mt-36 items-center bg-gray-200 mt-28 flex flex-wrap justify-center">
+    <div id="Clientes" className="p-6 md:p-12 lg:p-24 bg-gradient-to-r mt-36 items-center bg-gray-200  flex flex-wrap justify-center">
       <div className="w-full justify-center items-center mx-auto lg:w-1/2 p-4 md:p-6 lg:p-8 rounded-xl">
         <h1 className="text-3xl md:text-4xl font-semibold font-serif text-indigo-800 mb-4">¿Por qué elegir TechPremium CBA?</h1>
         <p className="text-lg md:text-xl font-serif mb-4">Porque tu satisfacción es nuestra prioridad.</p>
