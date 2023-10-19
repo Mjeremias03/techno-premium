@@ -11,7 +11,9 @@ module.exports = {
         'alfa-slab-one': ['Alfa Slab One', 'serif'],
         'bebas-neue': ['Bebas Neue', 'sans'],
         'rokkitt':['okkitt', 'serif'],
-        'libre-baskerville':['Libre Baskerville', 'serif']
+        'libre-baskerville':['Libre Baskerville', 'serif'],
+         'Gothic-A1':['Gothic A1', "sans-serif"],
+        'Libre Baskerville':['Libre Baskerville', "serif"]
       },
       
     },

@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <header className="flex justify-between xl:justify-center items-center bg-white  border-b p-1 fixed h-16 z-50 w-full"> {/* Aumentamos el alto del header */}
+    <header className="flex justify-between  items-center bg-black   p-1 fixed h-16 z-50 w-full"> {/* Aumentamos el alto del header */}
       <div className="p-4 flex justify-center items-center h-full">
         <img src="/nuevo.jpg" alt="" className="h-16 object-contain" />
         <h1></h1>
@@ -25,16 +25,16 @@ const Header = () => {
           showMenu ? "w-[80%] md:w-[40%] xl:w-[80%]" : "w-0"
         } gap-8 md:gap-16 top-16 transition-all duration-300 md:static flex-1 flex ${
           showMenu ? "flex-col h-screen bg-gradient-to-r from-purple-200 via-purple-400 to-purple-800 justify-center items-center" : ""
-        } md:flex-wrap justify-end items-end`} 
+        } md:flex-wrap justify-end h-full items-end`} 
       >
-        <div className="flex md:flex-wrap justify-center mr-20 items-center gap-4 md:gap-8">
-          <a href="#home" className="text-black font-medium text-xl text-center cursor-pointer hover:transition duration-300" onClick={scroll}>
+        <div className="flex md:flex-wrap justify-center mr-20 items-center  md:gap-8">
+          <a href="#home" className="text-white font-medium text-xl text-center cursor-pointer hover:transition duration-300" onClick={scroll}>
             Stock
           </a>
-          <a href="#home" className="text-black font-medium text-xl  text-center cursor-pointer">
+          <a href="#home" className="text-white font-medium text-xl  text-center cursor-pointer">
             Nosotros
           </a>
-          <a href="#Clientes" className="text-black font-medium text-xl text-center cursor-pointer">
+          <a href="#Clientes" className="text-white font-medium text-xl text-center cursor-pointer">
             Clientes
           </a>
         </div>
@@ -47,7 +47,7 @@ const Header = () => {
           </a>
         </div>
       </nav>
-      <button onClick={() => setShowMenu(!showMenu)} className="text-indigo-950 md:hidden text-2xl p-3">
+      <button onClick={() => setShowMenu(!showMenu)} className="text-white md:hidden text-2xl p-3">
         {showMenu ? <AiOutlineClose /> : <AiOutlineMenu />}
       </button>
     </header>

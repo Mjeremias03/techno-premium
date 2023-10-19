@@ -1,15 +1,17 @@
 const Servicios = () => {
   return (
-    <div className="flex flex-wrap justify-center mt-40 mx-auto xl:w-[80%] border-t-2">
+    <div className="flex flex-wrap justify-center mt-40 mx-auto xl:w-[90%] border-t-2">
       <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
         <div className="gap-2 h-full flex items-center flex-col">
           <img src="/camion.gif" className="object-contain" alt="Envio" />
           <h1 className="text-center">Envios seguros</h1>
           <p className="text-center">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            nam architecto eius blanditiis explicabo facere ab cupiditate,
-            aliquid quam sapiente vitae laudantium ipsam perspiciatis officiis
-            beatae voluptatibus numquam molestias ut!
+            En TechnoPremium, nos enorgullece ofrecer envíos seguros y
+            confiables. Sabemos lo importante que es recibir tus productos en
+            perfectas condiciones y a tiempo. Nuestro equipo de logística se
+            asegurará de que tu pedido esté bien empaquetado y se transporte de
+            manera segura hasta tu puerta. Tu satisfacción y tranquilidad son
+            nuestras principales prioridades.
           </p>
         </div>
       </div>
@@ -18,34 +20,43 @@ const Servicios = () => {
           <img src="/confianza.gif" alt="Amor" />
           <h1 className="text-center">Confianza entre vendedor y cliente</h1>
           <p className="text-center">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            nam architecto eius blanditiis explicabo facere ab cupiditate,
-            aliquid quam sapiente vitae laudantium ipsam perspiciatis officiis
-            beatae voluptatibus numquam molestias ut!
+            En TechnoPremium, construimos relaciones sólidas y duraderas con
+            nuestros clientes. Valoramos la confianza que depositas en nosotros
+            al elegirnos como tu proveedor de confianza. Nos esforzamos por
+            ofrecer un servicio excepcional y garantizar tu satisfacción en cada
+            paso del camino. Nuestro compromiso con la transparencia, la calidad
+            y la atención al cliente nos diferencia..
           </p>
         </div>
       </div>
       <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
         <div className="gap-2 h-full flex items-center flex-col">
           <img src="/pago.png" alt="pago" />
-          <h1 className="text-center">Queremos ofrecerle una confianza en su pago</h1>
+          <h1 className="text-center">
+            Queremos ofrecerle una confianza en su pago
+          </h1>
           <p className="text-center">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            nam architecto eius blanditiis explicabo facere ab cupiditate,
-            aliquid quam sapiente vitae laudantium ipsam perspiciatis officiis
-            beatae voluptatibus numquam molestias ut!
+            Tu seguridad y tranquilidad son nuestras prioridades cuando se trata
+            de procesar pagos. En TechnoPremium, utilizamos plataformas de pago
+            seguras y confiables para garantizar que tus transacciones sean
+            protegidas. Sabemos que la seguridad es fundamental cuando se trata
+            de compras en línea, y nos comprometemos a proporcionarte un entorno
+            de pago seguro.
           </p>
         </div>
       </div>
       <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
         <div className="gap-2 h-full flex items-center flex-col">
           <img src="serviciotecnico.png" alt="tecnico" />
-          <h1 className="text-center">Servicio tecnico propio</h1>
+          <h1 className="text-center">Servicio técnico propio</h1>
           <p className="text-center">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            nam architecto eius blanditiis explicabo facere ab cupiditate,
-            aliquid quam sapiente vitae laudantium ipsam perspiciatis officiis
-            beatae voluptatibus numquam molestias ut!
+            En TechnoPremium, comprendemos que la tecnología puede necesitar
+            reparaciones y mantenimiento en algún momento. Es por eso que
+            ofrecemos un servicio técnico propio. Nuestro equipo de técnicos
+            altamente capacitados está listo para atender tus necesidades de
+            reparación y mantenimiento de productos. Ya sea que necesites
+            solucionar un problema técnico o realizar un mantenimiento
+            preventivo, estamos aquí para ayudarte.
           </p>
         </div>
       </div>
