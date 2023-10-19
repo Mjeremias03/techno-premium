@@ -8,7 +8,7 @@ import Clientes from "../Clientes/Clientes";
 import Publicidad from "../Publicidad/About";
 import Servicios from "../Servicios/Servicios";
 import Contacto from "../Contacto/Contacto";
-import { fadeIn } from "../About/Framer";
+import { fadeIn, fadeInFromLeft } from "../About/Framer";
 import { motion } from "framer-motion";
 const Home = () => {
   const dispatch = useDispatch();
@@ -28,28 +28,51 @@ const Home = () => {
 
   return (
     <div className="h-screen w-full">
-      <Carrosel />
-      <div className="relative" id="Home">
-        <Publicidad />
-      </div>
-      <div
-        id="stock"
-        className="w-full  mt-52 mx-auto flex justify-center flex-col items-center "
-      >
-        <h1 className="text-5xl mt-15 text-center text-black font-extrabold">
-          Descubre Nuestra Selección Exclusiva
-        </h1>
+    <Carrosel />
+    <motion.div
+      className="relative"
+      variants={fadeInFromLeft(2, 1)} // Aplica las variantes fadein(2,1)
+      initial="hidden"
+      animate="visible"
+      exit="hidden"
+    >
+      <Publicidad />
+    </motion.div>
+    <motion.div
+  id="stock"
+  className="w-full  mt-52 mx-auto flex justify-center flex-col items-center "
+  variants={fadeInFromLeft(2, 1)} // Aplica las variantes fadein(2,1)
+  initial="hidden"
+  animate="visible"
+  exit="hidden"
+>
+  <h1 className="text-5xl mt-15 text-center text-black font-extrabold">
+    Descubre Nuestra Selección Exclusiva
+  </h1>
 
-        <div className=" h-full w-full mt-8 flex justify-center items-center flex-wrap shadow-md p-4 rounded-md">
-          <Card />
-        </div>
-      </div>
+  <div className=" h-full w-full mt-8 flex justify-center items-center flex-wrap shadow-md p-4 rounded-md">
+    <Card />
+  </div>
+</motion.div>
 
+  
+    <motion.div variants={fadeInFromLeft(2, 1)} initial="hidden" animate="visible" exit="hidden">
       <Clientes />
+    </motion.div>
+  
+    <motion.div variants={fadeInFromLeft(2, 1)} initial="hidden" animate="visible" exit="hidden">
       <Servicios />
+    </motion.div>
+  
+    <motion.div variants={fadeInFromLeft(2, 1)} initial="hidden" animate="visible" exit="hidden">
       <Contacto />
+    </motion.div>
+  
+    <motion.div variants={fadeInFromLeft(2, 1)} initial="hidden" animate="visible" exit="hidden">
       <Footer />
-    </div>
+    </motion.div>
+  </div>
+  
   );
 };
 
