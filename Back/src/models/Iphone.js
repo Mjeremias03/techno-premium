@@ -33,9 +33,12 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     id: {
-      type: DataTypes.UUID,
+      type: DataTypes.INTEGER,
       primaryKey: true,
-      defaultValue: DataTypes.UUIDV4,
+      allowNull:false
+    },
+    Procesador:{
+      type: DataTypes.TEXT,
     },
     description: {
       type: DataTypes.TEXT,

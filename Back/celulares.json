@@ -1,291 +1,335 @@
 [
-    {
-        "id": 1,
-        "marca": "Apple",
-        "modelo": "Iphone 7",
-        "precio": 100,
-        "sistema_operativo": "Apple",
-        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
-        "camara_principal": "12 MP",
-        "almacenamiento": "32GB",
-        "ram": "8 GB",
-        "imagenes": [
-            "https://http2.mlstatic.com/D_NQ_NP_736654-MLA49312671269_032022-O.webp"
-        ],
-        "stock":"1",
-        "bateria": "100%"
-    },
-    {
-        "id": 2,
-        "marca": "Apple",
-        "modelo": "iPhone 7",
-        "precio": 120,
-        "sistema_operativo": "iOS",
-        "pantalla": "6.1 pulgadas",
-        "camara_principal": "12 MP",
-        "almacenamiento": "256 GB",
-        "ram": "6 GB",
-        "imagenes": [
-            "https://http2.mlstatic.com/D_NQ_NP_961488-MLA49255685875_032022-O.webp"
-        ],
-        "bateria": "100%"
-    },
-    {
-        "id": 3,
-        "marca": "Apple",
-        "modelo": "Iphone 7Plus",
-        "precio": 200,
-        "sistema_operativo": "Apple",
-        "pantalla": "6.4 pulgadas",
-        "camara_principal": "50 MP",
-        "almacenamiento": "128 GB",
-        "ram": "8 GB",
-        "stock":"1",
-        "imagenes": [
-            "https://http2.mlstatic.com/D_NQ_NP_766355-MLA71635243788_092023-O.webp"
-        ],
-        "bateria": "100%"
-    },
-    {
-        "id": 4,
-        "marca": "Apple",
-        "modelo": "Iphone 7 Plus",
-        "precio": 210,
-        "sistema_operativo": "Apple",
-        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
-        "camara_principal": "12 MP",
-        "almacenamiento": "256 GB",
-        "ram": "8 GB",
-        "imagenes": [
-            "https://m.media-amazon.com/images/I/71WhKJqCGpL._AC_UF894,1000_QL80_.jpg",
-            "https://i.ebayimg.com/images/g/-9gAAOSwkWhlIJQ3/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/VFQAAOSwxotlIJQ4/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/OGoAAOSwsG5lIJQ6/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/Vy0AAOSw5N9lIJQ9/s-l1600.jpg"
-        ],
-        "stock":"1",
-        "bateria": "100%"
-    },
-    {
-        "id": 5,
-        "marca": "Apple",
-        "modelo": "Iphone 8",
-        "precio": 190,
-        "imagenes": [
-        "https://d28hi93gr697ol.cloudfront.net/9ef84dda-32dd-4016-7da3-1c0a824fffb4/img/Producto/00214f4c-b6ad-d96d-0bc6-11369f838132/iphone-8-1-6317ed5a36872.jpg"
-        ],
-        "sistema_operativo": "Apple",
-        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
-        "camara_principal": "12 MP",
-        "almacenamiento": "64 GB",
-        "ram": "8 GB",
-        "stock":"1",
-        "bateria": "100%"
-    },
-    {
-        "id": 6,
-        "marca": "Apple",
-        "modelo": "Iphone 8",
-        "precio": 100,
-        "sistema_operativo": "Apple",
-        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
-        "camara_principal": "12 MP",
-        "almacenamiento": "128 GB",
-        "imagenes":[
-            "https://http2.mlstatic.com/D_NQ_NP_879247-MLA71542736742_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_872197-MLA72164868389_102023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_852914-MLA72104481314_102023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_967743-MLA72104393212_102023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_837561-MLA72164632881_102023-O.webp"
-        ],
-        "ram": "8 GB",
-        "stock":"3",
-        "bateria": "100%"
-    },
-    {
-        "id": 7,
-        "marca": "Apple",
-        "modelo": "Iphone xr",
-        "imagenes": [
-            "https://http2.mlstatic.com/D_NQ_NP_858917-MLA71474224208_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_862354-MLA71474625422_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_707266-MLA71474470292_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_720982-MLA72079421855_102023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_903980-MLA72079284387_102023-O.webp"
-        ],
-        "precio": 100,
-        "sistema_operativo": "Apple",
-        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
-        "camara_principal": "12 MP",
-        "almacenamiento": "128 GB",
-        "ram": "8 GB",
-        "bateria": "100%"
-    },
-    {
-        "id": 8,
-        "marca": "Apple",
-        "modelo": "Iphone Xr",
-        "precio": 100,
-        "imagenes": [
-            "https://http2.mlstatic.com/D_NQ_NP_676901-MLA71524366705_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_863142-MLA71455074905_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_987598-MLA71409753330_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_683556-MLA71409669472_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_750654-MLA71409632022_092023-O.webp"
-        ],
-        "sistema_operativo": "Apple",
-        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
-        "camara_principal": "12 MP",
-        "almacenamiento": "128 GB",
-        "ram": "8 GB",
-        "bateria": "100%"
-    },
-    {
-        "id": 6,
-        "marca": "Apple",
-        "imagenes": [
-            "https://http2.mlstatic.com/D_NQ_NP_913741-MLM51559386469_092022-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_847325-MLM51559386473_092022-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_652291-MLM51559388199_092022-O.webp",
-            "https://http2.mlstatic.com/D_Q_NP_908818-MLM51559388192_092022-R.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_871755-MLM51559388196_092022-O.webp"
-        ],
-        "modelo": "Iphone 14pro",
-        "precio": 100,
-        "sistema_operativo": "Apple",
-        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
-        "camara_principal": "12 MP",
-        "almacenamiento": "128 GB",
-        "ram": "8 GB",
-        "bateria": "100%"
-    },
-    {
-        "id": 6,
-        "marca": "Apple",
-        "modelo": "Iphone 7",
-        "imagenes": [
-            "https://http2.mlstatic.com/D_NQ_NP_783515-MLA49297370145_032022-O.webp"
-        ],
-        "precio": 100,
-        "sistema_operativo": "Apple",
-        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
-        "camara_principal": "12 MP",
-        "almacenamiento": "128 GB",
-        "ram": "8 GB",
-        "bateria": "100%"
-    },
-    {
-        "id": 6,
-        "marca": "Apple",
-        "modelo": "Iphone 8 Plus",
-        "imagenes": [
-            "https://http2.mlstatic.com/D_NQ_NP_914657-MLA70155341055_062023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_835273-MLA70134381922_062023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_744226-MLA70134381924_062023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_689790-MLA70134381926_062023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_864436-MLA70134381928_062023-O.webp"
-        ],
-        "precio": 100,
-        "sistema_operativo": "Apple",
-        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
-        "camara_principal": "12 MP",
-        "almacenamiento": "128 GB",
-        "ram": "8 GB",
-        "bateria": "100%"
-    },
-    {
-        "id": 6,
-        "marca": "Apple",
-        "modelo": "Iphone XR Red",
-        "precio": 100,
-        "sistema_operativo": "Apple",
-        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
-        "camara_principal": "12 MP",
-        "imagenes":[
-            "https://http2.mlstatic.com/D_NQ_NP_681453-MLA72021250187_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_644045-MLA72021182073_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_906490-MLA71964871514_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_926118-MLA71964920926_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_818612-MLA71964881244_092023-O.webp"
-        ],
-        "almacenamiento": "128 GB",
-        "ram": "8 GB",
-        "bateria": "100%"
-    },
-    {
-        "id": 6,
-        "marca": "Apple",
-        "imagenes": [
-            "https://http2.mlstatic.com/D_NQ_NP_986406-MLA71526160797_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_626723-MLA71519035240_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_822180-MLA71518908670_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_632255-MLA71566408829_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_630066-MLA71518594578_092023-O.webp"
-        ],
-        "modelo": "Iphone 11 Black",
-        "precio": 100,
-        "sistema_operativo": "Apple",
-        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
-        "camara_principal": "12 MP",
-        "almacenamiento": "128 GB",
-        "ram": "8 GB",
-        "bateria": "100%"
-    },
-    {
-        "id": 6,
-        "marca": "Apple",
-        "modelo": "Iphone 11",
-        "precio": 100,
-        "imagenes": [
-            "https://http2.mlstatic.com/D_NQ_NP_711770-MLA71524390453_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_828406-MLA71565416307_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_742545-MLA71517935758_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_740443-MLA71565456039_092023-O.webp"
-            
-        ],
-        "sistema_operativo": "Apple",
-        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
-        "camara_principal": "12 MP",
-        "almacenamiento": "128 GB",
-        "ram": "8 GB",
-        "bateria": "100%"
-    },
-    {
-        "id": 6,
-        "marca": "Apple",
-        "modelo": "Iphone 11 pro",
-        "precio": 100,
-        "imagenes": [
-            "https://http2.mlstatic.com/D_NQ_NP_695863-MLA32646836777_102019-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_656206-MLA71965196166_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_729020-MLA72021507503_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_776172-MLA72021507513_092023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_973121-MLA72021468075_092023-O.webp"
-        ],
-        "sistema_operativo": "Apple",
-        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
-        "camara_principal": "12 MP",
-        "almacenamiento": "128 GB",
-        "ram": "8 GB",
-        "bateria": "100%"
-    },
-    {
-        "id": 6,
-        "marca": "Apple",
-        "modelo": "Iphone x",
-        "precio": 100,
-        "imagenes": [
-            "https://http2.mlstatic.com/D_NQ_NP_882768-MLA72109667703_102023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_752252-MLA72050518844_102023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_680533-MLA72109549523_102023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_828461-MLA72050865388_102023-O.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_774496-MLA72050538504_102023-O.webp"
-        ],
-        "sistema_operativo": "Apple",
-        "pantalla":"pantalla Retina HD de 4,7 pulgadas",
-        "camara_principal": "12 MP",
-        "almacenamiento": "128 GB",
-        "ram": "8 GB",
-        "bateria": "100%"
-    }
+  {
+    "id": 1,
+    "marca": "Apple",
+    "modelo": "iPhone 7",
+    "precio": 100,
+    "sistema_operativo": "iOS",
+    "pantalla": "Pantalla Retina HD de 4,7 pulgadas con una resolución de 1334 x 750 píxeles",
+    "camara_principal": "12 MP",
+    "almacenamiento": "32GB",
+    "ram": "2 GB",
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_736654-MLA49312671269_032022-O.webp"
+    ],
+    "Procesador": "Chip A10 Fusion con arquitectura de 64 bits.",
+    "stock": "Disponible",
+    "bateria": "100%",
+    "descripcion": "El iPhone 7 fue el primer iPhone en eliminar el conector de auriculares de 3,5 mm, lo que llevó a la popularización de los auriculares inalámbricos. También introdujo mejoras en la cámara, con una apertura más amplia y estabilización óptica de imagen. El dispositivo sigue siendo un teléfono confiable y atractivo para aquellos que buscan una experiencia iOS sin el costo de los modelos más recientes."
+  },
+  {
+    "id": 2,
+    "marca": "Apple",
+    "modelo": "iPhone 7",
+    "precio": 120,
+    "sistema_operativo": "iOS",
+    "pantalla": "Pantalla de 6.1 pulgadas",
+    "camara_principal": "12 MP",
+    "almacenamiento": "128 GB",
+    "Procesador": "Chip A10 Fusion con arquitectura de 64 bits.",
+    "ram": "2 GB",
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_961488-MLA49255685875_032022-O.webp"
+    ],
+    "bateria": "100%",
+    "descripcion": "El iPhone 7 fue el primer iPhone en eliminar el conector de auriculares de 3,5 mm, lo que llevó a la popularización de los auriculares inalámbricos. También introdujo mejoras en la cámara, con una apertura más amplia y estabilización óptica de imagen. El dispositivo sigue siendo un teléfono confiable y atractivo para aquellos que buscan una experiencia iOS sin el costo de los modelos más recientes."
+  },
+  {
+    "id": 3,
+    "marca": "Apple",
+    "modelo": "iPhone 7 Plus",
+    "precio": 200,
+    "sistema_operativo": "iOS",
+    "pantalla": "Pantalla Retina HD de 5,5 pulgadas con una resolución de 1920 x 1080 píxeles",
+    "camara_principal": "Sistema de cámara dual en la parte trasera con dos lentes de 12 megapíxeles, uno gran angular y uno teleobjetivo.",
+    "almacenamiento": "128 GB",
+    "ram": "3 GB",
+    "Procesador": "Chip A10 Fusion con arquitectura de 64 bits.",
+    "stock": "Disponible",
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_766355-MLA71635243788_092023-O.webp"
+    ],
+    "bateria": "100%",
+    "descripcion": "Resistencia al agua: Clasificación IP67, lo que significa que es resistente al agua y al polvo. El iPhone 7 Plus es conocido por su potente sistema de cámara dual, que permite tomar fotos con efecto de desenfoque de fondo (modo retrato) y acercamiento óptico. También hereda la eliminación del conector de auriculares de 3,5 mm y la resistencia al agua. La pantalla más grande y la capacidad de almacenamiento expandible lo convierten en una excelente elección para quienes buscan un dispositivo iOS de mayor tamaño y rendimiento."
+  },
+  {
+    "id": 4,
+    "marca": "Apple",
+    "modelo": "iPhone 7 Plus",
+    "precio": 210,
+    "sistema_operativo": "iOS",
+    "pantalla": "Pantalla Retina HD de 5,5 pulgadas con una resolución de 1920 x 1080 píxeles",
+    "Procesador": "Chip A10 Fusion con arquitectura de 64 bits.",
+    "camara_principal": "Sistema de cámara dual en la parte trasera con dos lentes de 12 megapíxeles, uno gran angular y uno teleobjetivo.",
+    "almacenamiento": "256 GB",
+    "ram": "8 GB",
+    "descripcion": "Resistencia al agua: Clasificación IP67, lo que significa que es resistente al agua y al polvo. El iPhone 7 Plus es conocido por su potente sistema de cámara dual, que permite tomar fotos con efecto de desenfoque de fondo (modo retrato) y acercamiento óptico. También hereda la eliminación del conector de auriculares de 3,5 mm y la resistencia al agua. La pantalla más grande y la capacidad de almacenamiento expandible lo convierten en una excelente elección para quienes buscan un dispositivo iOS de mayor tamaño y rendimiento.",
+    "imagenes": [
+      "https://m.media-amazon.com/images/I/71WhKJqCGpL._AC_UF894,1000_QL80_.jpg",
+      "https://i.ebayimg.com/images/g/-9gAAOSwkWhlIJQ3/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/VFQAAOSwxotlIJQ4/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/OGoAAOSwsG5lIJQ6/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/Vy0AAOSw5N9lIJQ9/s-l1600.jpg"
+    ],
+    "stock": "Disponible",
+    "bateria": "100%"
+  },
+  {
+    "id": 5,
+    "marca": "Apple",
+    "modelo": "iPhone 8",
+    "precio": 190,
+    "imagenes": [
+      "https://d28hi93gr697ol.cloudfront.net/9ef84dda-32dd-4016-7da3-1c0a824fffb4/img/Producto/00214f4c-b6ad-d96d-0bc6-11369f838132/iphone-8-1-6317ed5a36872.jpg"
+    ],
+    "Procesador": "Chip A11 Bionic con arquitectura de 64 bits.",
+    "sistema_operativo": "iOS",
+    "pantalla": "Pantalla Retina HD de 4,7 pulgadas con una resolución de 1334 x 750 píxeles.",
+    "camara_principal": "Cámara de 12 megapíxeles con apertura de f/1.8 y estabilización óptica de imagen.",
+    "almacenamiento": "64 GB",
+    "ram": "2 GB",
+    "stock": "Disponible",
+    "bateria": "100%",
+    "descripcion": "El iPhone 8 se destaca por su diseño de vidrio y aluminio, que permite la carga inalámbrica. Ofrece un rendimiento rápido gracias al chip A11 Bionic y una cámara principal mejorada para capturar fotos y videos de alta calidad. Aunque no presenta el diseño sin bordes de los modelos más recientes de iPhone, el iPhone 8 es una excelente opción para quienes buscan un dispositivo iOS confiable y de buen rendimiento."
+  },
+  {
+    "id": 6,
+    "marca": "Apple",
+    "modelo": "iPhone 8",
+    "precio": 190,
+    "sistema_operativo": "iOS",
+    "pantalla": "Pantalla Retina HD de 4,7 pulgadas con una resolución de 1334 x 750 píxeles.",
+    "camara_principal": "Cámara de 12 megapíxeles con apertura de f/1.8 y estabilización óptica de imagen.",
+    "almacenamiento": "64 GB",
+    "Procesador": "Chip A11 Bionic con arquitectura de 64 bits.",
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_879247-MLA71542736742_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_872197-MLA72164868389_102023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_852914-MLA72104481314_102023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_967743-MLA72104393212_102023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_837561-MLA72164632881_102023-O.webp"
+    ],
+    "ram": "2 GB",
+    "stock": "3",
+    "bateria": "100%",
+    "descripcion": "El iPhone 8 se destaca por su diseño de vidrio y aluminio, que permite la carga inalámbrica. Ofrece un rendimiento rápido gracias al chip A11 Bionic y una cámara principal mejorada para capturar fotos y videos de alta calidad. Aunque no presenta el diseño sin bordes de los modelos más recientes de iPhone, el iPhone 8 es una excelente opción para quienes buscan un dispositivo iOS confiable y de buen rendimiento."
+  },
+  {
+    "id": 7,
+    "marca": "Apple",
+    "modelo": "iPhone XR",
+    "precio": 300,
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_858917-MLA71474224208_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_862354-MLA71474625422_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_707266-MLA71474470292_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_720982-MLA72079421855_102023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_903980-MLA72079284387_102023-O.webp"
+    ],
+    "sistema_operativo": "iOS",
+    "pantalla": "Pantalla Liquid Retina de 6,1 pulgadas con una resolución de 1792 x 828 píxeles.",
+    "camara_principal": "Cámara de 12 megapíxeles con apertura de f/1.8 y estabilización óptica de imagen.",
+    "almacenamiento": "64 GB",
+    "Procesador": "Chip A12 Bionic con arquitectura de 64 bits.",
+    "ram": "3 GB",
+    "stock":"Disponible",
+    "bateria": "100%",
+    "descripcion": "El iPhone XR presenta una pantalla Liquid Retina de 6,1 pulgadas, un potente chip A12 Bionic y una cámara principal de 12 megapíxeles con estabilización óptica de imagen. Ofrece un rendimiento sólido y una gran duración de la batería. Es una excelente opción para quienes buscan un dispositivo iOS con un equilibrio entre precio y rendimiento."
+  },
+  {
+    "id": 8,
+    "marca": "Apple",
+    "modelo": "iPhone 8 Plus",
+    "precio": 300,
+    "sistema_operativo": "iOS",
+    "pantalla": "Pantalla Retina HD de 5,5 pulgadas con una resolución de 1920 x 1080 píxeles.",
+    "camara_principal": "Sistema de cámara dual en la parte trasera con dos lentes de 12 megapíxeles, uno gran angular y uno teleobjetivo.",
+    "almacenamiento": "64 GB",
+    "Procesador": "Chip A11 Bionic con arquitectura de 64 bits.",
+    "ram": "3 GB",
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_676901-MLA71524366705_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_863142-MLA71455074905_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_987598-MLA71409753330_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_683556-MLA71409669472_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_750654-MLA71409632022_092023-O.webp"
+    ],
+    "bateria": "100%",
+    "stock":"Disponible",
+    "descripcion": "El iPhone 8 Plus es conocido por su potente sistema de cámara dual, que permite tomar fotos con efecto de desenfoque de fondo (modo retrato) y acercamiento óptico. También hereda la eliminación del conector de auriculares de 3,5 mm y la resistencia al agua. La pantalla más grande y la capacidad de almacenamiento expandible lo convierten en una excelente elección para quienes buscan un dispositivo iOS de mayor tamaño y rendimiento."
+  },
+  {
+    "id": 100,
+    "marca": "Apple",
+    "modelo": "iPhone 8 Plus",
+    "precio": 250,
+    "sistema_operativo": "iOS 11",
+    "pantalla": "Pantalla Retina HD de 5,5 pulgadas",
+    "camara_principal": "Doble cámara de 12 MP (gran angular y teleobjetivo)",
+    "almacenamiento": "64GB o 256GB",
+    "ram": "3 GB",
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_852397-MLA70155462779_062023-O.webp"
+    ],
+    "stock": "Disponible",
+    "bateria": "Batería de iones de litio recargable integrada",
+    "descripcion": "El iPhone 8 Plus es un smartphone de gama alta de Apple que se destaca por su potente rendimiento y su cámara dual, que permite tomar fotos de alta calidad y efectos de retrato impresionantes. Ofrece una experiencia fluida con su pantalla Retina HD de 5,5 pulgadas y el sistema operativo iOS 11. Con opciones de almacenamiento de 64GB o 256GB, este dispositivo te permite almacenar todo lo que necesitas. Además, la batería de iones de litio recargable garantiza un uso prolongado. ¡Obtén lo mejor de Apple con el iPhone 8 Plus!"
+  },
+  {
+    "id": 9,
+    "marca": "Apple",
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_913741-MLM51559386469_092022-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_847325-MLM51559386473_092022-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_652291-MLM51559388199_092022-O.webp",
+      "https://http2.mlstatic.com/D_Q_NP_908818-MLM51559388192_092022-R.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_871755-MLM51559388196_092022-O.webp"
+    ],
+    "modelo": "Iphone 14 Pro",
+    "precio": 100,
+    "sistema_operativo": "Apple",
+    "pantalla": "pantalla Retina HD de 4,7 pulgadas",
+    "camara_principal": "12 MP",
+    "almacenamiento": " GB",
+    "ram": "8 GB",
+    "stock":"Disponible",
+    "bateria": "100%"
+  },
+  {
+    "id": 10,
+    "marca": "Apple",
+    "modelo": "Iphone 7",
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_783515-MLA49297370145_032022-O.webp"
+    ],
+    "precio": 100,
+    "sistema_operativo": "Apple",
+    "pantalla": "pantalla Retina HD de 4,7 pulgadas",
+    "camara_principal": "12 MP",
+    "almacenamiento": " GB",
+    "stock":"Disponible",
+    "ram": "8 GB",
+    "bateria": "100%"
+  },
+  {
+    "id": 11,
+    "marca": "Apple",
+    "modelo": "Iphone 8 Plus",
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_914657-MLA70155341055_062023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_835273-MLA70134381922_062023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_744226-MLA70134381924_062023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_689790-MLA70134381926_062023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_864436-MLA70134381928_062023-O.webp"
+    ],
+    "precio": 100,
+    "sistema_operativo": "Apple",
+    "pantalla": "pantalla Retina HD de 4,7 pulgadas",
+    "camara_principal": "12 MP",
+    "almacenamiento": "128 GB",
+    "stock":"Disponible",
+    "ram": "8 GB",
+    "bateria": "100%"
+  },
+  {
+    "id": 12,
+    "marca": "Apple",
+    "modelo": "Iphone XR",
+    "precio": 100,
+    "sistema_operativo": "Apple",
+    "pantalla": "pantalla Retina HD de 4,7 pulgadas",
+    "camara_principal": "12 MP",
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_681453-MLA72021250187_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_644045-MLA72021182073_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_906490-MLA71964871514_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_926118-MLA71964920926_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_818612-MLA71964881244_092023-O.webp"
+    ],
+    "almacenamiento": "128 GB",
+    "stock":"Disponible",
+    "ram": "8 GB",
+    "bateria": "100%"
+  },
+  {
+    "id": 13,
+    "marca": "Apple",
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_986406-MLA71526160797_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_626723-MLA71519035240_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_822180-MLA71518908670_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_632255-MLA71566408829_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_630066-MLA71518594578_092023-O.webp"
+    ],
+    "modelo": "Iphone 11",
+    "precio": 100,
+    "sistema_operativo": "Apple",
+    "stock":"Disponible",
+    "pantalla": "pantalla Retina HD de 4,7 pulgadas",
+    "camara_principal": "12 MP",
+    "almacenamiento": "128 GB",
+    "ram": "8 GB",
+    "bateria": "100%"
+  },
+  {
+    "id": 14,
+    "marca": "Apple",
+    "modelo": "iPhone 11",
+    "precio": 380,
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_711770-MLA71524390453_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_828406-MLA71565416307_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_742545-MLA71517935758_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_740443-MLA71565456039_092023-O.webp"
+    ],
+    "sistema_operativo": "iOS",
+    "pantalla": "Pantalla Liquid Retina HD de 6,1 pulgadas con una resolución de 1792 x 828 píxeles",
+    "camara_principal": "Sistema de cámara dual de 12 MP con aperturas de f/1.8 y f/2.4, zoom óptico, estabilización de imagen y modo Noche",
+    "almacenamiento": "64 GB",
+    "ram": "4 GB",
+    "bateria": "Batería recargable integrada de iones de litio con carga rápida",
+    "descripcion": "El iPhone 11 es un teléfono de gama media de Apple que ofrece un excelente rendimiento y una gran calidad de cámara. La pantalla Liquid Retina proporciona colores vibrantes y el sistema de cámara dual es versátil y capaz de tomar fotos impresionantes. Es una excelente opción para quienes buscan un iPhone de alto rendimiento sin el precio de los modelos de gama alta."
+  },
+  {
+    "id": 15,
+    "marca": "Apple",
+    "modelo": "iPhone 11 Pro",
+    "precio": 100,
+    "stock": "Disponible",
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_695863-MLA32646836777_102019-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_656206-MLA71965196166_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_729020-MLA72021507503_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_776172-MLA72021507513_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_973121-MLA72021468075_092023-O.webp"
+    ],
+    "sistema_operativo": "iOS",
+    "pantalla": "Pantalla Super Retina XDR de 5,8 pulgadas con una resolución de 1125 x 2436 píxeles",
+    "camara_principal": "Sistema de cámara triple de 12 MP con aperturas de f/1.8, f/2.0 y f/2.4, zoom óptico, estabilización de imagen y modo Noche",
+    "almacenamiento": "128 GB",
+    "ram": "4 GB",
+    "bateria": "Batería recargable integrada de iones de litio con carga inalámbrica",
+    "descripcion": "El iPhone 11 Pro es un teléfono de alta gama de Apple que se destaca por su potente sistema de cámara triple y su pantalla Super Retina XDR. Ofrece un rendimiento sólido con el chip A13 Bionic y es ideal para aquellos que buscan un dispositivo iOS con funciones avanzadas de fotografía y video."
+  },
+  {
+    "id": 16,
+    "marca": "Apple",
+    "modelo": "iPhone X",
+    "precio": 300,
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_882768-MLA72109667703_102023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_752252-MLA72050518844_102023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_680533-MLA72109549523_102023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_828461-MLA72050865388_102023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_774496-MLA72050538504_102023-O.webp"
+    ],
+    "sistema_operativo": "iOS",
+    "pantalla": "Pantalla Super Retina HD de 5,8 pulgadas con una resolución de 1125 x 2436 píxeles",
+    "camara_principal": "Cámara dual de 12 MP con aperturas de f/1.8 y f/2.4, zoom óptico y estabilización de imagen",
+    "almacenamiento": "256 GB",
+    "ram": "3 GB",
+    "bateria": "Batería recargable integrada de iones de litio con carga inalámbrica, 100%",
+    "descripcion": "El iPhone X es un teléfono inteligente de gama alta de Apple. Se destacó por su diseño sin bordes con pantalla OLED, desbloqueo facial Face ID, y potentes cámaras duales. Ofreció un rendimiento sólido con el chip A11 Bionic y una experiencia de usuario de alta calidad."
+  }
+  
 ]

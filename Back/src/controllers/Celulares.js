@@ -1,4 +1,4 @@
-const { Iphone, Imagenes } = require("../database");
+const { Iphone } = require("../database");
 const fs = require("fs");
 
 const getCelular = async (req, res) => {
@@ -9,9 +9,10 @@ const getCelular = async (req, res) => {
 
     // Procesa los datos si es necesario
     const newData = celularesData.map((elemento) => ({
+      id: elemento.id,
       marca: elemento.marca,
       modelo: elemento.modelo,
-      imagenes: elemento.imagenes.map((e)=> e),
+      imagenes: elemento.imagenes.map((e) => e),
       precio: elemento.precio,
       sistema_operativo: elemento.sistema_operativo,
       pantalla: elemento.pantalla,
@@ -19,35 +20,20 @@ const getCelular = async (req, res) => {
       almacenamiento: elemento.almacenamiento,
       ram: elemento.ram,
       bateria: elemento.bateria,
+      descripcion:elemento.descripcion,
+      Procesador: elemento.Procesador,
     }));
 
-    // // 1. Lee las imágenes de tu base de datos
-    // const imagenes = await Imagenes.findAll();
+    for (const celular of newData) {
+      // Verifica si ya existe un celular con el mismo id en la base de datos
+      const existingCell = await Iphone.findOne({ where: { id: celular.id } });
 
-    // // 2. Asocia las imágenes con los celulares correspondientes
-    // for (const celular of newData) {
-    //   // Filtra las imágenes que coinciden con el modelo de celular
-    //   const matchingImagenes = imagenes.filter((imagen) => {
-    //     return imagen.nombre === celular.modelo;
-    //   });
+      if (!existingCell) {
+        // Si no existe, crea el celular en la base de datos
+        await Iphone.create(celular);
+      }
+    }
 
-    //   // Asocia las imágenes con el celular (agrega las imágenes al objeto del celular)
-    //   celular.imagenes = matchingImagenes;
-    // }
-
-    // // Recorremos newData y verificamos si ya existe el celular en la base de datos antes de guardarlo
-    // for (const celular of newData) {
-    //   const existingCell = await Iphone.findOne({ where: { modelo: celular.modelo } });
-
-    //   if (!existingCell) {
-    //     await Iphone.create(celular, {
-    //       include: Imagenes, // Esto asocia las imágenes al guardar los celulares
-    //     });
-    //   }
-    // }
-
-    await Iphone.bulkCreate(newData)
-    console.log(Iphone)
     res.status(200).json(newData);
   } catch (error) {
     console.error("Error al guardar celulares en la base de datos:", error);
@@ -56,4 +42,3 @@ const getCelular = async (req, res) => {
 };
 
 module.exports = getCelular;
-
