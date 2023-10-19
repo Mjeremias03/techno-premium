@@ -8,7 +8,8 @@ import Clientes from "../Clientes/Clientes";
 import Publicidad from "../Publicidad/About";
 import Servicios from "../Servicios/Servicios";
 import Contacto from "../Contacto/Contacto";
-
+import { fadeIn } from "../About/Framer";
+import { motion } from "framer-motion";
 const Home = () => {
   const dispatch = useDispatch();
 

@@ -4,15 +4,18 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { TbSortDescending } from "react-icons/tb";
-import {fadeIn} from "../About/Framer";
-import { motion } from "framer-motion";
+import { fadeIn } from "../About/Framer";
+import {motion} from "framer-motion"
 function Carrosel() {
   return (
-    <motion.div 
-    variants={fadeIn(2, 1)}
+    <motion.div // Wrap with motion.div
+    variants={fadeIn(2, 1)} // Aplica las variantes fadein(2,1)
     initial="hidden"
     animate="visible"
-    >
+    exit="hidden"
+    className="w-full h-full"
+    transition={{ duration: 2 }}
+  >
     <Swiper
       modules={[Navigation, Pagination, Autoplay]}
       spaceBetween={30}
