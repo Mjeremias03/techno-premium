@@ -6,7 +6,7 @@ const sendEmail = async (req, res) => {
 
     const emailOptions = {
         from: `Mensaje enviado por ${from}`, // Use the 'from' address provided in the request body
-        to: "jeremingolla03@gmail.com",
+        to: `${from}`,
         subject: `¡Bienvenido, ${name}!`,
         html: `
         <div style="background: linear-gradient(to bottom, #E6D0FF, #B897FF); text-align: center; padding: 20px; display: flex; flex-direction: column; color: #fff;">
