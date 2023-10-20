@@ -8,42 +8,55 @@ const Contacto = () => {
   const [comentario, setComentario] = useState('');
   const dispatch = useDispatch();
 
-  const handleNameChange = (e) => {
-    setName(e.target.value);
-  };
+   // Expresión regular para validar que el correo termine en @gmail.com
+   const gmailRegex = /@gmail\.com$/;
 
-  const handleFormChange = (e) => {
-    setForm(e.target.value);
-  };
-
-  const handleComentarioChange = (e) => {
-    setComentario(e.target.value);
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      await dispatch(sendEmail(from, name));
-      // Envío exitoso
-      toast.success('Suscripción exitosa', {
-        position: "top-center",
-        autoClose: 3000,
-      });
-      
-      // Limpiar los campos después del envío exitoso
-      setForm('');
-      setName('');
-      setComentario('');
-    } catch (error) {
-      // Manejo de errores aquí, si es necesario
-      console.error('Error:', error);
-      // Puedes mostrar una notificación de error si deseas
-      toast.error('Hubo un error al enviar el correo electrónico', {
-        position: 'bottom-right',
-        autoClose: 3000,
-      });
-    }
-  };
+   const handleNameChange = (e) => {
+     setName(e.target.value);
+   };
+ 
+   const handleFormChange = (e) => {
+     setForm(e.target.value);
+   };
+ 
+   const handleComentarioChange = (e) => {
+     setComentario(e.target.value);
+   };
+ 
+   const handleSubmit = async (e) => {
+     e.preventDefault();
+     
+     // Validar que el correo termine en @gmail.com
+     if (!gmailRegex.test(from)) {
+       toast.error('Por favor, ingrese una dirección de correo electrónico de Gmail válida.', {
+         position: 'bottom-right',
+         autoClose: 3000,
+       });
+       return; // Detener el envío si el correo no es válido
+     }
+ 
+     try {
+       await dispatch(sendEmail(from, name));
+       // Envío exitoso
+       toast.success('Suscripción exitosa', {
+         position: "top-center",
+         autoClose: 3000,
+       });
+       
+       // Limpiar los campos después del envío exitoso
+       setForm('');
+       setName('');
+       setComentario('');
+     } catch (error) {
+       // Manejo de errores aquí, si es necesario
+       console.error('Error:', error);
+       // Puedes mostrar una notificación de error si deseas
+       toast.error('Hubo un error al enviar el correo electrónico', {
+         position: 'bottom-right',
+         autoClose: 3000,
+       });
+     }
+   };
 
   return (
     <div id='contactanos' className="flex items-center justify-center mt-40 h-[40%] bg-white text-white">

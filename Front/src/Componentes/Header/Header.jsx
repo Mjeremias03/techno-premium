@@ -5,15 +5,7 @@ import { motion } from "framer-motion";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(true);
 
-  const scroll = (e) => {
-    e.preventDefault();
-    const target = document.querySelector("#stock");
-    target.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-      inline: "nearest",
-    });
-  };
+
 const hanldeNav = (e) =>{
 setShowMenu(!showMenu)
 }

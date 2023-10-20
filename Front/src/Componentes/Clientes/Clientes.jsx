@@ -22,7 +22,7 @@ const Clientes = () => {
           <li>Equipos a precios accesibles que se adaptan a tu presupuesto.</li>
           <li>La mejor selección de celulares usados, ofreciendo calidad y ahorro.</li>
         </ul>
-        <p className="mt-7 font-black text-center text-2xl md:text-base">
+        <p className="mt-7 font-black text-center text-lg mdtext-2xl md:text-base">
   ¡Estamos comprometidos a brindarte todo lo que necesitas para estar conectado y satisfecho con tus productos tecnológicos!
 </p>
 
