@@ -139,7 +139,7 @@
   {
     "id": 8,
     "marca": "Apple",
-    "modelo": "iPhone 8 Plus",
+    "modelo": "iPhone XR",
     "precio": 300,
     "sistema_operativo": "iOS",
     "pantalla": "Pantalla Retina HD de 5,5 pulgadas con una resolución de 1920 x 1080 píxeles.",
@@ -330,6 +330,117 @@
     "ram": "3 GB",
     "bateria": "Batería recargable integrada de iones de litio con carga inalámbrica, 100%",
     "descripcion": "El iPhone X es un teléfono inteligente de gama alta de Apple. Se destacó por su diseño sin bordes con pantalla OLED, desbloqueo facial Face ID, y potentes cámaras duales. Ofreció un rendimiento sólido con el chip A11 Bionic y una experiencia de usuario de alta calidad."
+  },
+  {
+    "id": 66,
+    "marca": "Apple",
+    "modelo": "iPhone 11",
+    "precio": 380,
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_807512-MLA72049634438_102023-O.webp"
+    ],
+    "sistema_operativo": "iOS",
+    "pantalla": "Pantalla Liquid Retina HD de 6,1 pulgadas con una resolución de 1792 x 828 píxeles",
+    "camara_principal": "Sistema de cámara dual de 12 MP con aperturas de f/1.8 y f/2.4, zoom óptico, estabilización de imagen y modo Noche",
+    "almacenamiento": "64 GB",
+    "ram": "4 GB",
+    "bateria": "Batería recargable integrada de iones de litio con carga rápida",
+    "descripcion": "El iPhone 11 es un teléfono de gama media de Apple que ofrece un excelente rendimiento y una gran calidad de cámara. La pantalla Liquid Retina proporciona colores vibrantes y el sistema de cámara dual es versátil y capaz de tomar fotos impresionantes. Es una excelente opción para quienes buscan un iPhone de alto rendimiento sin el precio de los modelos de gama alta."
+  },
+  {
+    "id": 61,
+    "marca": "Apple",
+    "modelo": "iPhone 14",
+    "precio": 380,
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_881016-MLM51559383738_092022-O.webp"
+    ],
+    "sistema_operativo": "iOS",
+    "pantalla": "Pantalla Liquid Retina HD de 6,1 pulgadas con una resolución de 1792 x 828 píxeles",
+    "camara_principal": "Sistema de cámara dual de 12 MP con aperturas de f/1.8 y f/2.4, zoom óptico, estabilización de imagen y modo Noche",
+    "almacenamiento": "64 GB",
+    "ram": "4 GB",
+    "bateria": "Batería recargable integrada de iones de litio con carga rápida",
+    "descripcion": "El iPhone 11 es un teléfono de gama media de Apple que ofrece un excelente rendimiento y una gran calidad de cámara. La pantalla Liquid Retina proporciona colores vibrantes y el sistema de cámara dual es versátil y capaz de tomar fotos impresionantes. Es una excelente opción para quienes buscan un iPhone de alto rendimiento sin el precio de los modelos de gama alta."
+  },
+  {
+    "id": 50,
+    "marca": "Apple",
+    "modelo": "iPhone 12 Mini",
+    "precio": 380,
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_844024-MLA43976550825_112020-O.webp"
+    ],
+    "sistema_operativo": "iOS",
+    "pantalla": "Pantalla Liquid Retina HD de 6,1 pulgadas con una resolución de 1792 x 828 píxeles",
+    "camara_principal": "Sistema de cámara dual de 12 MP con aperturas de f/1.8 y f/2.4, zoom óptico, estabilización de imagen y modo Noche",
+    "almacenamiento": "64 GB",
+    "ram": "4 GB",
+    "bateria": "Batería recargable integrada de iones de litio con carga rápida",
+    "descripcion": "El iPhone 11 es un teléfono de gama media de Apple que ofrece un excelente rendimiento y una gran calidad de cámara. La pantalla Liquid Retina proporciona colores vibrantes y el sistema de cámara dual es versátil y capaz de tomar fotos impresionantes. Es una excelente opción para quienes buscan un iPhone de alto rendimiento sin el precio de los modelos de gama alta."
+  },
+  {
+    "id": 55,
+    "marca": "Apple",
+    "modelo": "iPhone 8 Plus",
+    "precio": 380,
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_747097-MLA70155557309_062023-O.webp"
+    ],
+    "sistema_operativo": "iOS",
+    "pantalla": "Pantalla Liquid Retina HD de 6,1 pulgadas con una resolución de 1792 x 828 píxeles",
+    "camara_principal": "Sistema de cámara dual de 12 MP con aperturas de f/1.8 y f/2.4, zoom óptico, estabilización de imagen y modo Noche",
+    "almacenamiento": "64 GB",
+    "ram": "4 GB",
+    "bateria": "Batería recargable integrada de iones de litio con carga rápida",
+    "descripcion": "El iPhone 11 es un teléfono de gama media de Apple que ofrece un excelente rendimiento y una gran calidad de cámara. La pantalla Liquid Retina proporciona colores vibrantes y el sistema de cámara dual es versátil y capaz de tomar fotos impresionantes. Es una excelente opción para quienes buscan un iPhone de alto rendimiento sin el precio de los modelos de gama alta."
+  },
+  {
+    "id": 56,
+    "marca": "Apple",
+    "modelo": "iPhone 7 Plus",
+    "precio": 380,
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_874301-MLA69942591869_062023-O.webp"
+    ],
+    "sistema_operativo": "iOS",
+    "pantalla": "Pantalla Liquid Retina HD de 6,1 pulgadas con una resolución de 1792 x 828 píxeles",
+    "camara_principal": "Sistema de cámara dual de 12 MP con aperturas de f/1.8 y f/2.4, zoom óptico, estabilización de imagen y modo Noche",
+    "almacenamiento": "64 GB",
+    "ram": "4 GB",
+    "bateria": "Batería recargable integrada de iones de litio con carga rápida",
+    "descripcion": "El iPhone 11 es un teléfono de gama media de Apple que ofrece un excelente rendimiento y una gran calidad de cámara. La pantalla Liquid Retina proporciona colores vibrantes y el sistema de cámara dual es versátil y capaz de tomar fotos impresionantes. Es una excelente opción para quienes buscan un iPhone de alto rendimiento sin el precio de los modelos de gama alta."
+  },
+  {
+    "id": 87,
+    "marca": "Apple",
+    "modelo": "iPhone 13 Pro",
+    "precio": 380,
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_866117-MLA47778565361_102021-O.webp"
+    ],
+    "sistema_operativo": "iOS",
+    "pantalla": "Pantalla Liquid Retina HD de 6,1 pulgadas con una resolución de 1792 x 828 píxeles",
+    "camara_principal": "Sistema de cámara dual de 12 MP con aperturas de f/1.8 y f/2.4, zoom óptico, estabilización de imagen y modo Noche",
+    "almacenamiento": "64 GB",
+    "ram": "4 GB",
+    "bateria": "Batería recargable integrada de iones de litio con carga rápida",
+    "descripcion": "El iPhone 11 es un teléfono de gama media de Apple que ofrece un excelente rendimiento y una gran calidad de cámara. La pantalla Liquid Retina proporciona colores vibrantes y el sistema de cámara dual es versátil y capaz de tomar fotos impresionantes. Es una excelente opción para quienes buscan un iPhone de alto rendimiento sin el precio de los modelos de gama alta."
+  },
+  {
+    "id": 89,
+    "marca": "Apple",
+    "modelo": "iPhone 7",
+    "precio": 380,
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_996566-MLA53427569007_012023-O.webp"
+    ],
+    "sistema_operativo": "iOS",
+    "pantalla": "Pantalla Liquid Retina HD de 6,1 pulgadas con una resolución de 1792 x 828 píxeles",
+    "camara_principal": "Sistema de cámara dual de 12 MP con aperturas de f/1.8 y f/2.4, zoom óptico, estabilización de imagen y modo Noche",
+    "almacenamiento": "64 GB",
+    "ram": "4 GB",
+    "bateria": "Batería recargable integrada de iones de litio con carga rápida",
+    "descripcion": "El iPhone 11 es un teléfono de gama media de Apple que ofrece un excelente rendimiento y una gran calidad de cámara. La pantalla Liquid Retina proporciona colores vibrantes y el sistema de cámara dual es versátil y capaz de tomar fotos impresionantes. Es una excelente opción para quienes buscan un iPhone de alto rendimiento sin el precio de los modelos de gama alta."
   }
-  
 ]
