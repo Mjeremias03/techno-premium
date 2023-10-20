@@ -14,38 +14,41 @@ const Header = () => {
       inline: "nearest",
     });
   };
-
+const hanldeNav = (e) =>{
+setShowMenu(!showMenu)
+}
   return (
     <motion.header
-    variants={fadeIn(1, 1)} // Aplica las variantes fadein(2,1)
+    variants={fadeIn(1, 1)} 
     initial="hidden"
     animate="visible"
     transition={{ duration: 2 }}
     exit="hidden"
-    className="flex justify-between  items-center bg-black   p-1 fixed h-16 z-50 w-full"
+    className="flex justify-between  items-center bg-black flex-wrap p-1 fixed h-16 mx-auto px-4 z-50 w-full"
   >
-      <div className="p-4 flex justify-center items-center h-full">
+      <div className=" flex justify-center h-full  items-center">
         <img src="/nuevo.jpg" alt="" className="h-16 object-contain" />
-        <h1></h1>
+        <h1 className="text-black">Techno Premium</h1>
       </div>
-      <nav
-        className={`z-10 fixed ${
-          showMenu ? "w-[80%] md:w-[40%] xl:w-[80%]" : "w-0"
-        } gap-8 md:gap-16 top-16 transition-all duration-300 md:static flex-1 flex ${
-          showMenu ? "flex-col h-screen bg-gradient-to-r from-purple-200 via-purple-400 to-purple-800 justify-center items-center" : ""
-        } md:flex-wrap justify-end h-full items-end`} 
-      >
-        <div className="flex md:flex-wrap justify-center mr-20 items-center  md:gap-8">
-          <a href="#home" className="text-white font-medium text-xl text-center cursor-pointer hover:transition duration-300" onClick={scroll}>
-            Stock
-          </a>
-          <a href="/about" className="text-white font-medium text-xl  text-center cursor-pointer">
-            Nosotros
-          </a>
-          <a href="#Clientes" className="text-white font-medium text-xl text-center cursor-pointer">
-            Clientes
-          </a>
-        </div>
+        <ul className="hidden gap-5 font-Gothic-A1 md:flex">
+        <li className=" hover:text-indigo-800 transition-all duration-500 hover:cursor-pointer text-white pt-8 text-end"> <a href="#contactanos">Contactanos</a></li>
+        <li  className="hover:text-indigo-800 transition-all duration-500 hover:cursor-pointer text-white pt-8"><a href="/about">Nosotros</a></li>
+        <li className="hover:text-indigo-800 transition-all duration-500 hover:cursor-pointer text-white pt-8"> <a href="#stock">Stock</a></li>
+        <li className="hover:text-indigo-800 transition-all duration-500 hover:cursor-pointer text-white pt-8"><a href="#clientes">Cliente</a></li>
+        <li className="hover:text-indigo-800 transition-all duration-500 hover:cursor-pointer text-white pt-8"><a href="#Servicios">Servicios</a></li>
+      </ul>
+      <div onClick={hanldeNav} className="block md:hidden ">
+      {showMenu ? <AiOutlineMenu className="hover:cursor-pointer text-white" size={20} /> : <AiOutlineClose  className="hover:cursor-pointer text-white"  size={20} />}
+      </div>
+      <div className={!showMenu ? "fixed left-0 top-0 w-[60%] h-screen border-r md:hidden ease-in-out duration-500  bg-black" : "fixed left-[-100%]"}>
+    <img src="/nuevo.jpg" alt="" className="h-16 object-contain" /> 
+        <ul className="p-6 uppercase">
+        <li className="p-4 text-white  border-b border-gray-700">contact</li>
+        <li className="p-4 text-white border-b border-gray-700">nosotro</li>
+        <li className="p-4 text-white  border-b border-gray-700">stock</li>
+        <li className="p-4 text-white  border-b border-gray-700">cliente</li>
+        <li className="p-4 text-white  border-b border-gray-700">servicios</li>
+        </ul>
         <div className="flex justify-center items-center">
           <a href="https://www.instagram.com/technopremiumcba/" target="_blank">
             <img src="/inst.png" alt="Redes sociales" />
@@ -54,10 +57,15 @@ const Header = () => {
             <img src="/face.png" alt="Facebook" />
           </a>
         </div>
-      </nav>
-      <button onClick={() => setShowMenu(!showMenu)} className="text-white md:hidden text-2xl p-3">
-        {showMenu ? <AiOutlineClose /> : <AiOutlineMenu />}
-      </button>
+      </div>
+      <div className=" hidden md:flex justify-center items-center">
+          <a href="https://www.instagram.com/technopremiumcba/" target="_blank">
+            <img src="/inst.png" alt="Redes sociales" />
+          </a>
+          <a href="/face">
+            <img src="/face.png" alt="Facebook" />
+          </a>
+        </div>
        </motion.header>
   );
 };

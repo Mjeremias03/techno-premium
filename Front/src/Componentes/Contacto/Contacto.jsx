@@ -18,7 +18,7 @@ const Contacto = () => {
     };
 
     return (
-        <div className="flex items-center justify-center mt-10 h-[40%] bg-white text-white">
+        <div id='contactanos' className="flex items-center justify-center mt-10 h-[40%] bg-white text-white">
             <div className="w-full max-w-md">
                 <h1 className="text-2xl font-bold text-black text-center">Contáctanos</h1>
                 <form className="bg-white shadow-md rounded px-8 pt-6 pb-8" onSubmit={handleSubmit}>
