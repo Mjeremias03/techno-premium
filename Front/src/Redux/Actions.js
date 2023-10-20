@@ -46,7 +46,7 @@ export const getCelulares = () => {
   export const sendEmail = (email, name) => {
     return async (dispatch) => {
       try {
-        const response = await axios.post("http://localhost:3001/contact", {
+        const response = await axios.post("https://techno-premium-production.up.railway.app/contact", {
           from: email,
           name: name,
         });
