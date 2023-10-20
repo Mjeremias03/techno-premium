@@ -1,5 +1,5 @@
 import axios from "axios"
-import { GET_CELULARES,INFO_CELULARES,GET_CELULARESID } from "./actionTypes";
+import { GET_CELULARES,INFO_CELULARES,GET_CELULARESID,SEND_EMAIL } from "./actionTypes";
 
 export const getCelulares = () => {
     return async function (dispatch) {
@@ -43,3 +43,33 @@ export const getCelulares = () => {
       }
     };
   };
+  export const sendEmail = (email, name) => {
+    return async (dispatch) => {
+      try {
+        const response = await axios.post("http://localhost:3001/contact", {
+          from: email,
+          name: name,
+        });
+  
+        // Verificar el status de la respuesta
+        if (response.status === 200) {
+          // Despachar una acción de éxito
+          dispatch(enviarEmailExitoso(response.data));
+        } else {
+          // Puedes despachar una acción de error si es necesario
+          dispatch(enviarEmailError("Hubo un error al enviar el correo electrónico"));
+        }
+      } catch (error) {
+        console.error("Error:", error);
+        // Puedes manejar errores o despachar acciones en caso de error si lo deseas
+        dispatch(enviarEmailError("Hubo un error al enviar el correo electrónico"));
+      }
+    };
+  };
+  const enviarEmailExitoso = (data) => {
+    return {
+      type: "ENVIAR_EMAIL_EXITOSO",
+      payload: data,
+    };
+  };
+    
