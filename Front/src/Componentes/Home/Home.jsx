@@ -60,7 +60,7 @@ const Home = () => {
       <Clientes />
     </motion.div>
   
-    <motion.div variants={fadeInFromLeft(2, 1)} initial="hidden" animate="visible" exit="hidden">
+    <motion.div variants={fadeInFromLeft(2, 1)} className="h-1/2" initial="hidden" animate="visible" exit="hidden">
       <Servicios />
     </motion.div>
   

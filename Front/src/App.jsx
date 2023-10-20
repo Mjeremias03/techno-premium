@@ -6,7 +6,6 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { getCelulares } from "./Redux/Actions";
 import { useLocation } from "react-router-dom";
-import Nosotros from "./Componentes/About/Nosotros";
 
 function App() {
   const dispatch = useDispatch();
@@ -21,12 +20,10 @@ function App() {
 
   return (
     <div className="h-screen flex flex-col">
-      {/* Renderiza el componente Header solo si no estás en la página "/about". */}
       {!isAboutPage && <Header />}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/detail/:id" element={<Detail />} />
-        <Route path="/about" element={<Nosotros />} />
       </Routes>
     </div>
   );
