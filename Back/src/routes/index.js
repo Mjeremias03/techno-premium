@@ -3,7 +3,7 @@ const getCelular = require("../controllers/Celulares");
 const imaganesRouter = require("./imagenes");
 const celularesRouter = require("./celulares");
 const email = require("../controllers/Email");
-const nodemailer = require("nodemailer");
+
 const route = Router();
 route.post("/contact", email);
 route.get("/", getCelular);
