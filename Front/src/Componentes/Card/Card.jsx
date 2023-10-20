@@ -32,10 +32,10 @@ const Card = () => {
           >
            
               <div className="relative">
+                <div className="w-full h-80 relative">
                   <div
                     className="w-full h-full absolute top-0 left-0 bg-black opacity-10"
                   ></div>
-                <div className="w-full h-80 relative">
                   <img
                     src={el.imagenes[0]}
                     alt={el.marca}

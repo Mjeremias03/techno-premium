@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { fadeIn } from "../About/Framer";
 import { motion } from "framer-motion";
 const Header = () => {
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(true);
 
   const scroll = (e) => {
     e.preventDefault();
@@ -31,7 +31,7 @@ setShowMenu(!showMenu)
         <h1 className="text-black">Techno Premium</h1>
       </div>
         <ul className="hidden gap-5 font-Gothic-A1 md:flex">
-        <li className=" hover:text-indigo-800 transition-all duration-500 hover:cursor-pointer text-white pt-8 text-end"> <a href="#contactanos">Contactanos</a></li>
+        <li className=" hover:text-indigo-800 transition-all duration-500 hover:cursor-pointer text-white pt-8"> <a href="#contactanos">Contactanos</a></li>
         <li  className="hover:text-indigo-800 transition-all duration-500 hover:cursor-pointer text-white pt-8"><a href="/about">Nosotros</a></li>
         <li className="hover:text-indigo-800 transition-all duration-500 hover:cursor-pointer text-white pt-8"> <a href="#stock">Stock</a></li>
         <li className="hover:text-indigo-800 transition-all duration-500 hover:cursor-pointer text-white pt-8"><a href="#clientes">Cliente</a></li>
@@ -43,11 +43,11 @@ setShowMenu(!showMenu)
       <div className={!showMenu ? "fixed left-0 top-0 w-[60%] h-screen border-r md:hidden ease-in-out duration-500  bg-black" : "fixed left-[-100%]"}>
     <img src="/nuevo.jpg" alt="" className="h-16 object-contain" /> 
         <ul className="p-6 uppercase">
-        <li className="p-4 text-white  border-b border-gray-700">contact</li>
-        <li className="p-4 text-white border-b border-gray-700">nosotro</li>
-        <li className="p-4 text-white  border-b border-gray-700">stock</li>
-        <li className="p-4 text-white  border-b border-gray-700">cliente</li>
-        <li className="p-4 text-white  border-b border-gray-700">servicios</li>
+        <li className=" hover:text-indigo-800 transition-all duration-500 hover:cursor-pointer border-b border-indigo-700 text-white pt-8 "> <a href="#contactanos">Contactanos</a></li>
+        <li  className="hover:text-indigo-800 transition-all duration-500 hover:cursor-pointer border-b border-indigo-700 text-white pt-8"><a href="/about">Nosotros</a></li>
+        <li className="hover:text-indigo-800 transition-all duration-500 hover:cursor-pointer text-white border-b border-indigo-700 pt-8"> <a href="#stock">Stock</a></li>
+        <li className="hover:text-indigo-800 transition-all duration-500 hover:cursor-pointer text-white border-b border-indigo-700 pt-8"><a href="#clientes">Cliente</a></li>
+        <li className="hover:text-indigo-800 transition-all duration-500 hover:cursor-pointer text-white border-b border-indigo-700 pt-8"><a href="#Servicios">Servicios</a></li>
         </ul>
         <div className="flex justify-center items-center">
           <a href="https://www.instagram.com/technopremiumcba/" target="_blank">
