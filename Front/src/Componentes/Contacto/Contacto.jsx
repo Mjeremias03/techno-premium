@@ -61,7 +61,7 @@ const Contacto = () => {
   return (
     <div id='contactanos' className="flex items-center justify-center mt-40 h-[40%] bg-white text-white">
       <div className="w-full max-w-md">
-        <h1 className="text-2xl font-bold text-black text-center">Subscríbete y recibe nuevas ofertas y beneficios</h1>
+        <h1 className="text-2xl font-bold text-black text-center">Suscríbete para acceder a ofertas y recompensas</h1>
         <form className="bg-white shadow-md rounded px-8 pt-6 pb-8" onSubmit={handleSubmit}>
           <div>
             <label className="block text-gray-700 text-sm font-bold" htmlFor="name">
