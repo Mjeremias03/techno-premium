@@ -1,4 +1,4 @@
-const transporte = require("./trans");
+const transporte = require("./transportador");
 
 const sendEmail = async (req, res) => {
   try {
